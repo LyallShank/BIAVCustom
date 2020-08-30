@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Barriers_Checkbox</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Health_Not_Discussed__c = TRUE,
+    OR(
+        Health_Barriers__c = TRUE
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Health_Barriers__c</errorDisplayField>
+    <errorMessage>If &quot;Health Not Discussed&quot; is checked, &quot;Health Barriers&quot; cannot be checked. Choose one.</errorMessage>
+</ValidationRule>

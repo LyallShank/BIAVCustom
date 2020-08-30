@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_of_information_sent__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to list out what articles, websites, etc. were sent to the client by mail or fax. For emailed material, refer to email.</inlineHelpText>
+    <label>List of information sent:</label>
+    <length>500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

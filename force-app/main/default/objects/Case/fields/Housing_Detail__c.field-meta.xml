@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing_Detail__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Inaccessible- ability to identify, obtain and use the services; services do exist
+Unacceptable- degree to which the service is congruent with educational level, cultural beliefs, and enhances the self-actualization of the person using it</inlineHelpText>
+    <label>Housing Barrier Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Housing_Barriers__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unavailable</fullName>
+                <default>false</default>
+                <label>Unavailable</label>
+            </value>
+            <value>
+                <fullName>Inaccessible- not open to PWBI</fullName>
+                <default>false</default>
+                <label>Inaccessible- not open to PWBI</label>
+            </value>
+            <value>
+                <fullName>Inaccessible- geographically/ physically</fullName>
+                <default>false</default>
+                <label>Inaccessible- geographically/ physically</label>
+            </value>
+            <value>
+                <fullName>Inappropriate- wrong facility</fullName>
+                <default>false</default>
+                <label>Inappropriate- wrong facility</label>
+            </value>
+            <value>
+                <fullName>Inappropriate- provider unfamiliar w/ BI</fullName>
+                <default>false</default>
+                <label>Inappropriate- provider unfamiliar w/ BI</label>
+            </value>
+            <value>
+                <fullName>Inappropriate- wrong time in recovery</fullName>
+                <default>false</default>
+                <label>Inappropriate- wrong time in recovery</label>
+            </value>
+            <value>
+                <fullName>Inappropriate- duration or intensity</fullName>
+                <default>false</default>
+                <label>Inappropriate- duration or intensity</label>
+            </value>
+            <value>
+                <fullName>Unaffordable- lack of insurance</fullName>
+                <default>false</default>
+                <label>Unaffordable- lack of insurance</label>
+            </value>
+            <value>
+                <fullName>Unaffordable- lack of coverage</fullName>
+                <default>false</default>
+                <label>Unaffordable- lack of coverage</label>
+            </value>
+            <value>
+                <fullName>Unaffordable- lack of personal funds</fullName>
+                <default>false</default>
+                <label>Unaffordable- lack of personal funds</label>
+            </value>
+            <value>
+                <fullName>Unacceptable- self-determination</fullName>
+                <default>false</default>
+                <label>Unacceptable- self-determination</label>
+            </value>
+            <value>
+                <fullName>Unacceptable- cultural competence</fullName>
+                <default>false</default>
+                <label>Unacceptable- cultural competence</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inaccessible- not open to PWBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inaccessible- geographically/ physically</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inappropriate- wrong facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inappropriate- provider unfamiliar w/ BI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inappropriate- wrong time in recovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Inappropriate- duration or intensity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unaffordable- lack of insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unaffordable- lack of coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unaffordable- lack of personal funds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unacceptable- self-determination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Unacceptable- cultural competence</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

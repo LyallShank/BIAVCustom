@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Start_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the date of the email, the date of call, or the date stamped on the registry card. For I &amp; R-when they contact us;  for first IRFA, when you talk to them.</inlineHelpText>
+    <label>Service Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

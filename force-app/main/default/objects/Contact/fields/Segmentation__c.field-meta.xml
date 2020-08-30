@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentation__c</fullName>
+    <externalId>false</externalId>
+    <label>Segmentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIAV Staff</fullName>
+                <default>false</default>
+                <label>BIAV Staff</label>
+            </value>
+            <value>
+                <fullName>Board-Current</fullName>
+                <default>false</default>
+                <label>Board-Current</label>
+            </value>
+            <value>
+                <fullName>Board-Former</fullName>
+                <default>false</default>
+                <label>Board-Former</label>
+            </value>
+            <value>
+                <fullName>Camp Donor</fullName>
+                <default>false</default>
+                <label>Camp Donor</label>
+            </value>
+            <value>
+                <fullName>Camper</fullName>
+                <default>false</default>
+                <label>Camper</label>
+            </value>
+            <value>
+                <fullName>Camp Staff</fullName>
+                <default>false</default>
+                <label>Camp Staff</label>
+            </value>
+            <value>
+                <fullName>Caregiver</fullName>
+                <default>false</default>
+                <label>Caregiver</label>
+            </value>
+            <value>
+                <fullName>Caregiver Forum</fullName>
+                <default>false</default>
+                <label>Caregiver Forum</label>
+            </value>
+            <value>
+                <fullName>Cmpr-Ineligible</fullName>
+                <default>false</default>
+                <label>Cmpr-Ineligible</label>
+            </value>
+            <value>
+                <fullName>Conference-Making Headway</fullName>
+                <default>false</default>
+                <label>Conference-Making Headway</label>
+            </value>
+            <value>
+                <fullName>Conference-Professionals</fullName>
+                <default>false</default>
+                <label>Conference-Professionals</label>
+            </value>
+            <value>
+                <fullName>Conference-Speaker</fullName>
+                <default>false</default>
+                <label>Conference-Speaker</label>
+            </value>
+            <value>
+                <fullName>Conference Sponsor/Exhibitor</fullName>
+                <default>false</default>
+                <label>Conference Sponsor/Exhibitor</label>
+            </value>
+            <value>
+                <fullName>Directory</fullName>
+                <default>false</default>
+                <label>Directory</label>
+            </value>
+            <value>
+                <fullName>Donor</fullName>
+                <default>false</default>
+                <label>Donor</label>
+            </value>
+            <value>
+                <fullName>Family Member of PWBI</fullName>
+                <default>false</default>
+                <label>Family Member of PWBI</label>
+            </value>
+            <value>
+                <fullName>Friend of PWBI</fullName>
+                <default>false</default>
+                <label>Friend of PWBI</label>
+            </value>
+            <value>
+                <fullName>Golf Participant</fullName>
+                <default>false</default>
+                <label>Golf Participant</label>
+            </value>
+            <value>
+                <fullName>Golf Sponsor</fullName>
+                <default>false</default>
+                <label>Golf Sponsor</label>
+            </value>
+            <value>
+                <fullName>Legacy Dinner Participant</fullName>
+                <default>false</default>
+                <label>Legacy Dinner Participant</label>
+            </value>
+            <value>
+                <fullName>Legacy Dinner Sponsor</fullName>
+                <default>false</default>
+                <label>Legacy Dinner Sponsor</label>
+            </value>
+            <value>
+                <fullName>Member-Current</fullName>
+                <default>false</default>
+                <label>Member-Current</label>
+            </value>
+            <value>
+                <fullName>Member-Former</fullName>
+                <default>false</default>
+                <label>Member-Former</label>
+            </value>
+            <value>
+                <fullName>Networking Event Participant</fullName>
+                <default>false</default>
+                <label>Networking Event Participant</label>
+            </value>
+            <value>
+                <fullName>Organizational Sponsor</fullName>
+                <default>false</default>
+                <label>Organizational Sponsor</label>
+            </value>
+            <value>
+                <fullName>Professional</fullName>
+                <default>false</default>
+                <label>Professional</label>
+            </value>
+            <value>
+                <fullName>PWBI</fullName>
+                <default>false</default>
+                <label>PWBI</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Support Group Leader-Current</fullName>
+                <default>false</default>
+                <label>Support Group Leader-Current</label>
+            </value>
+            <value>
+                <fullName>Support Group Leader-Former</fullName>
+                <default>false</default>
+                <label>Support Group Leader-Former</label>
+            </value>
+            <value>
+                <fullName>Support Group Leader Training</fullName>
+                <default>false</default>
+                <label>Support Group Leader Training</label>
+            </value>
+            <value>
+                <fullName>Support Group-Participant</fullName>
+                <default>false</default>
+                <label>Support Group-Participant</label>
+            </value>
+            <value>
+                <fullName>Training Participant</fullName>
+                <default>false</default>
+                <label>Training Participant</label>
+            </value>
+            <value>
+                <fullName>VBIC Virginia Brain Injury Council-Current</fullName>
+                <default>false</default>
+                <label>VBIC Virginia Brain Injury Council-Current</label>
+            </value>
+            <value>
+                <fullName>VBIC Virginia Brain Injury Council-Former</fullName>
+                <default>false</default>
+                <label>VBIC Virginia Brain Injury Council-Former</label>
+            </value>
+            <value>
+                <fullName>Vendor/Business</fullName>
+                <default>false</default>
+                <label>Vendor/Business</label>
+            </value>
+            <value>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+                <label>Volunteer</label>
+            </value>
+            <value>
+                <fullName>Webinar participant</fullName>
+                <default>false</default>
+                <label>Webinar participant</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

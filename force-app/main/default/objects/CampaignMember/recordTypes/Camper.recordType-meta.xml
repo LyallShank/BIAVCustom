@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Camper</fullName>
+    <active>true</active>
+    <description>Use for Campers to get Weeks field to show</description>
+    <label>Camper</label>
+    <picklistValues>
+        <picklist>Weeks__c</picklist>
+        <values>
+            <fullName>Applied but not accepted at all</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Applied for 2 weeks-accepted for 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Both Weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Both Weeks w Mini Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week 1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Week 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

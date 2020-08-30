@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npe01__Member_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used for Membership Opportunities (Record Type)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines the value on the Contact or Account of the Last Membership Level field.</inlineHelpText>
+    <label>Member Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Career-Starter/Student</fullName>
+                <default>false</default>
+                <label>Career-Starter/Student</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Family</fullName>
+                <default>false</default>
+                <label>Family</label>
+            </value>
+            <value>
+                <fullName>Professional</fullName>
+                <default>false</default>
+                <label>Professional</label>
+            </value>
+            <value>
+                <fullName>Young Professional</fullName>
+                <default>false</default>
+                <label>Young Professional</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

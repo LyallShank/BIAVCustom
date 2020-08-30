@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing_Barrier_Checkbox</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Housing_Not_Discussed__c = TRUE,
+    OR(
+        Housing_Barriers__c = TRUE
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Housing_Barriers__c</errorDisplayField>
+    <errorMessage>If &quot;Housing Not Discussed&quot; is checked, &quot;Housing Barriers&quot; cannot be checked. Choose one.</errorMessage>
+</ValidationRule>

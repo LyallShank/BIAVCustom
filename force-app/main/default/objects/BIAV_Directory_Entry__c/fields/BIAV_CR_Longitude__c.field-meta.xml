@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIAV_CR_Longitude__c</fullName>
+    <description>Longitude of Community Resource address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Longitude of Community Resource address</inlineHelpText>
+    <label>dir_longitude</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

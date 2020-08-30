@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_Contacts</fullName>
+    <columns>GW_Volunteers__Volunteer_Status__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Volunteer_Interests__c</columns>
+    <columns>Segmentation__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Segmentation__c</field>
+        <operation>includes</operation>
+        <value>Volunteer</value>
+    </filters>
+    <label>Volunteer Contacts</label>
+</ListView>

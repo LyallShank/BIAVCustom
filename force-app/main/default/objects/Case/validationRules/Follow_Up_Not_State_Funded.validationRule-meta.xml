@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Not_State_Funded</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+OR(
+
+ISPICKVAL(Call_Status__c, &quot;First Follow Up Call&quot;),
+
+ISPICKVAL(Call_Status__c, &quot;Second Follow Up Call&quot;)),
+
+OR(
+
+(State_Funded__c)))</errorConditionFormula>
+    <errorDisplayField>Call_Status__c</errorDisplayField>
+    <errorMessage>Follow up phone calls are not state funded</errorMessage>
+</ValidationRule>

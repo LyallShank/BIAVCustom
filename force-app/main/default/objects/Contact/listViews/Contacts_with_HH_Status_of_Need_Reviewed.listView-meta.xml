@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_with_HH_Status_of_Need_Reviewed</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>npe01__Home_Address__c</columns>
+    <columns>If_other_describe__c</columns>
+    <columns>BIAV_HH_Account_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BIAV_HH_Account_Status__c</field>
+        <operation>equals</operation>
+        <value>Not Reviewed</value>
+    </filters>
+    <label>Contacts with HH Status of Need Reviewed</label>
+</ListView>

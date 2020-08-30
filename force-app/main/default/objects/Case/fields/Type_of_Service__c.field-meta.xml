@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Service__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Resource Request</fullName>
+                <default>false</default>
+                <label>Resource Request</label>
+            </value>
+            <value>
+                <fullName>NeuroResource Facilitation (NRF)</fullName>
+                <default>false</default>
+                <label>NeuroResource Facilitation (NRF)</label>
+            </value>
+            <value>
+                <fullName>Case Discussion</fullName>
+                <default>false</default>
+                <label>Case Discussion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

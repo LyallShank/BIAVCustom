@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_to_BIAV__c</fullName>
+    <externalId>false</externalId>
+    <label>Relation to BIAV</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIAV Resource Directory</fullName>
+                <default>false</default>
+                <label>BIAV Resource Directory</label>
+            </value>
+            <value>
+                <fullName>Camper</fullName>
+                <default>false</default>
+                <label>Camper</label>
+            </value>
+            <value>
+                <fullName>Camper Not Eligible</fullName>
+                <default>false</default>
+                <label>Camper Not Eligible</label>
+            </value>
+            <value>
+                <fullName>Camp Staff/ Volunteer</fullName>
+                <default>false</default>
+                <label>Camp Staff/ Volunteer</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Current Board Member</fullName>
+                <default>false</default>
+                <label>Current Board Member</label>
+            </value>
+            <value>
+                <fullName>Donor</fullName>
+                <default>false</default>
+                <label>Donor</label>
+            </value>
+            <value>
+                <fullName>Event Volunteer</fullName>
+                <default>false</default>
+                <label>Event Volunteer</label>
+            </value>
+            <value>
+                <fullName>Family/Friend of PWBI</fullName>
+                <default>false</default>
+                <label>Family/Friend of PWBI</label>
+            </value>
+            <value>
+                <fullName>Field Day</fullName>
+                <default>false</default>
+                <label>Field Day</label>
+            </value>
+            <value>
+                <fullName>Former Board Member</fullName>
+                <default>false</default>
+                <label>Former Board Member</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>I &amp; R</fullName>
+                <default>false</default>
+                <label>I &amp; R</label>
+            </value>
+            <value>
+                <fullName>Legislative Advocate</fullName>
+                <default>false</default>
+                <label>Legislative Advocate</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Professional</fullName>
+                <default>false</default>
+                <label>Professional</label>
+            </value>
+            <value>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+                <label>Support Group Facilitator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

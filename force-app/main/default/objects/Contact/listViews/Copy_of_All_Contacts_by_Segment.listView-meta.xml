@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_Contacts_by_Segment</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Segmentation__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>If_other_describe__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__HHId__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Clean up Org Contact to HH Acct/Affiliat</label>
+</ListView>

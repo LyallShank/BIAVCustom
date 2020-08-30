@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Supports_Checkbox</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Community_Supports_Not_Discussed__c = TRUE,
+    OR(
+        Community_Supports_Barriers__c = TRUE
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Community_Supports_Barriers__c</errorDisplayField>
+    <errorMessage>If &quot;Community Supports Not Discussed&quot; is checked, &quot;Community Supports Barriers&quot; cannot be checked. Choose one.</errorMessage>
+</ValidationRule>

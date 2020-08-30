@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance__c</fullName>
+    <externalId>false</externalId>
+    <label>Insurance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Discussed</fullName>
+                <default>true</default>
+                <label>Not Discussed</label>
+            </value>
+            <value>
+                <fullName>None Reported</fullName>
+                <default>false</default>
+                <label>None Reported</label>
+            </value>
+            <value>
+                <fullName>Medicare</fullName>
+                <default>false</default>
+                <label>Medicare</label>
+            </value>
+            <value>
+                <fullName>Medicaid/MCO</fullName>
+                <default>false</default>
+                <label>Medicaid/MCO</label>
+            </value>
+            <value>
+                <fullName>Medicaid Waiver</fullName>
+                <default>false</default>
+                <label>Medicaid Waiver</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Private Insurance</fullName>
+                <default>false</default>
+                <label>Private Insurance</label>
+            </value>
+            <value>
+                <fullName>TRICARE</fullName>
+                <default>false</default>
+                <label>TRICARE</label>
+            </value>
+            <value>
+                <fullName>Uninsured</fullName>
+                <default>false</default>
+                <label>Uninsured</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

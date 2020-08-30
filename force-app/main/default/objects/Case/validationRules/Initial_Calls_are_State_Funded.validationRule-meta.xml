@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Calls_are_State_Funded</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+OR(
+
+ISPICKVAL(Call_Status__c, &quot;Initial IRFA Phone Call&quot;),
+
+ISPICKVAL(Call_Status__c, &quot;Follow Up Declined&quot;),
+
+ISPICKVAL(Call_Status__c, &quot;Follow Up Not Required&quot;)),
+
+OR(NOT(
+
+(State_Funded__c))))</errorConditionFormula>
+    <errorDisplayField>Call_Status__c</errorDisplayField>
+    <errorMessage>Initial Phone Calls are state funded</errorMessage>
+</ValidationRule>

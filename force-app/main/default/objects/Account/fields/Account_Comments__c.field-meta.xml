@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Comments__c</fullName>
+    <description>To clarify type or segment for a specific Account; to record interactions with account reps.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this text box to further clarify the type or the segment and to record any interactions with account reps.</inlineHelpText>
+    <label>Account Comments</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

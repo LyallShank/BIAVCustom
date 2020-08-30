@@ -6,11 +6,15 @@
     </types>
     <types>
         <members>Account</members>
+        <members>Activity</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
         <members>Case</members>
         <members>Contact</members>
         <members>Event</members>
         <members>Opportunity</members>
         <members>Lead</members>
+        <members>Task</members>
         <name>CustomObject</name>
     </types>
     <version>49.0</version>

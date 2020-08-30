@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other__c</fullName>
+    <description>Use to record other materials sent to professional</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to record the number of &quot;other&quot; materials sent AND note the specific name of the material in the Notes from Contact field above.</inlineHelpText>
+    <label>Other</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

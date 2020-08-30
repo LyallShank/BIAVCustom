@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing_Information__c</fullName>
+    <externalId>false</externalId>
+    <label>Housing Situation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not discussed</fullName>
+                <default>false</default>
+                <label>Not discussed</label>
+            </value>
+            <value>
+                <fullName>Assisted Living</fullName>
+                <default>false</default>
+                <label>Assisted Living</label>
+            </value>
+            <value>
+                <fullName>Correctional Facility</fullName>
+                <default>false</default>
+                <label>Correctional Facility</label>
+            </value>
+            <value>
+                <fullName>Foster Care</fullName>
+                <default>false</default>
+                <label>Foster Care</label>
+            </value>
+            <value>
+                <fullName>Group Home</fullName>
+                <default>false</default>
+                <label>Group Home</label>
+            </value>
+            <value>
+                <fullName>Home/ Apartment</fullName>
+                <default>false</default>
+                <label>Home/ Apartment</label>
+            </value>
+            <value>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+                <label>Homeless</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>ICF/MR</fullName>
+                <default>false</default>
+                <label>ICF/MR</label>
+            </value>
+            <value>
+                <fullName>Nursing Facility</fullName>
+                <default>false</default>
+                <label>Nursing Facility</label>
+            </value>
+            <value>
+                <fullName>Other Congregate Living</fullName>
+                <default>false</default>
+                <label>Other Congregate Living</label>
+            </value>
+            <value>
+                <fullName>Psychiatric Hospital</fullName>
+                <default>false</default>
+                <label>Psychiatric Hospital</label>
+            </value>
+            <value>
+                <fullName>Rehab Facility</fullName>
+                <default>false</default>
+                <label>Rehab Facility</label>
+            </value>
+            <value>
+                <fullName>Substance Abuse Residential Program</fullName>
+                <default>false</default>
+                <label>Substance Abuse Residential Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

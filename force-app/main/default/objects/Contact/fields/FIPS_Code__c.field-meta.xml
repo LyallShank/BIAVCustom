@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIPS_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>FIPS Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>000 (Not Completed)</fullName>
+                <default>false</default>
+                <label>000 (Not Completed)</label>
+            </value>
+            <value>
+                <fullName>000 (Unknown)</fullName>
+                <default>false</default>
+                <label>000 (Unknown)</label>
+            </value>
+            <value>
+                <fullName>001 (Accomack)</fullName>
+                <default>false</default>
+                <label>001 (Accomack)</label>
+            </value>
+            <value>
+                <fullName>003 (Albemarle)</fullName>
+                <default>false</default>
+                <label>003 (Albemarle)</label>
+            </value>
+            <value>
+                <fullName>005 (Alleghany)</fullName>
+                <default>false</default>
+                <label>005 (Alleghany)</label>
+            </value>
+            <value>
+                <fullName>007 (Amelia)</fullName>
+                <default>false</default>
+                <label>007 (Amelia)</label>
+            </value>
+            <value>
+                <fullName>009 (Amherst)</fullName>
+                <default>false</default>
+                <label>009 (Amherst)</label>
+            </value>
+            <value>
+                <fullName>011 (Appomattox)</fullName>
+                <default>false</default>
+                <label>011 (Appomattox)</label>
+            </value>
+            <value>
+                <fullName>013 (Arlington)</fullName>
+                <default>false</default>
+                <label>013 (Arlington)</label>
+            </value>
+            <value>
+                <fullName>015 (Augusta)</fullName>
+                <default>false</default>
+                <label>015 (Augusta)</label>
+            </value>
+            <value>
+                <fullName>017 (Bath)</fullName>
+                <default>false</default>
+                <label>017 (Bath)</label>
+            </value>
+            <value>
+                <fullName>019 (Bedford)</fullName>
+                <default>false</default>
+                <label>019 (Bedford)</label>
+            </value>
+            <value>
+                <fullName>021 (Bland)</fullName>
+                <default>false</default>
+                <label>021 (Bland)</label>
+            </value>
+            <value>
+                <fullName>023 (Botecourt)</fullName>
+                <default>false</default>
+                <label>023 (Botecourt)</label>
+            </value>
+            <value>
+                <fullName>025 (Brunswick)</fullName>
+                <default>false</default>
+                <label>025 (Brunswick)</label>
+            </value>
+            <value>
+                <fullName>027 (Buchanan)</fullName>
+                <default>false</default>
+                <label>027 (Buchanan)</label>
+            </value>
+            <value>
+                <fullName>029 (Buckingham)</fullName>
+                <default>false</default>
+                <label>029 (Buckingham)</label>
+            </value>
+            <value>
+                <fullName>031 (Campbell)</fullName>
+                <default>false</default>
+                <label>031 (Campbell)</label>
+            </value>
+            <value>
+                <fullName>033 (Caroline)</fullName>
+                <default>false</default>
+                <label>033 (Caroline)</label>
+            </value>
+            <value>
+                <fullName>035 (Carroll)</fullName>
+                <default>false</default>
+                <label>035 (Carroll)</label>
+            </value>
+            <value>
+                <fullName>036 (Charles City)</fullName>
+                <default>false</default>
+                <label>036 (Charles City)</label>
+            </value>
+            <value>
+                <fullName>037 (Charlotte)</fullName>
+                <default>false</default>
+                <label>037 (Charlotte)</label>
+            </value>
+            <value>
+                <fullName>041 (Chesterfield)</fullName>
+                <default>false</default>
+                <label>041 (Chesterfield)</label>
+            </value>
+            <value>
+                <fullName>043 (Clarke)</fullName>
+                <default>false</default>
+                <label>043 (Clarke)</label>
+            </value>
+            <value>
+                <fullName>045 (Craig)</fullName>
+                <default>false</default>
+                <label>045 (Craig)</label>
+            </value>
+            <value>
+                <fullName>047 (Culpeper)</fullName>
+                <default>false</default>
+                <label>047 (Culpeper)</label>
+            </value>
+            <value>
+                <fullName>049 (Cumberland)</fullName>
+                <default>false</default>
+                <label>049 (Cumberland)</label>
+            </value>
+            <value>
+                <fullName>051 (Dickenson)</fullName>
+                <default>false</default>
+                <label>051 (Dickenson)</label>
+            </value>
+            <value>
+                <fullName>053 (Dinwiddie)</fullName>
+                <default>false</default>
+                <label>053 (Dinwiddie)</label>
+            </value>
+            <value>
+                <fullName>057 (Essex)</fullName>
+                <default>false</default>
+                <label>057 (Essex)</label>
+            </value>
+            <value>
+                <fullName>059 (Fairfax County)</fullName>
+                <default>false</default>
+                <label>059 (Fairfax County)</label>
+            </value>
+            <value>
+                <fullName>061 (Fauquier)</fullName>
+                <default>false</default>
+                <label>061 (Fauquier)</label>
+            </value>
+            <value>
+                <fullName>063 (Floyd)</fullName>
+                <default>false</default>
+                <label>063 (Floyd)</label>
+            </value>
+            <value>
+                <fullName>065 (Fluvanna)</fullName>
+                <default>false</default>
+                <label>065 (Fluvanna)</label>
+            </value>
+            <value>
+                <fullName>067 (Franklin County)</fullName>
+                <default>false</default>
+                <label>067 (Franklin County)</label>
+            </value>
+            <value>
+                <fullName>069 (Frederick)</fullName>
+                <default>false</default>
+                <label>069 (Frederick)</label>
+            </value>
+            <value>
+                <fullName>071 (Giles)</fullName>
+                <default>false</default>
+                <label>071 (Giles)</label>
+            </value>
+            <value>
+                <fullName>073 (Gloucester)</fullName>
+                <default>false</default>
+                <label>073 (Gloucester)</label>
+            </value>
+            <value>
+                <fullName>075 (Goochland)</fullName>
+                <default>false</default>
+                <label>075 (Goochland)</label>
+            </value>
+            <value>
+                <fullName>077 (Grayson)</fullName>
+                <default>false</default>
+                <label>077 (Grayson)</label>
+            </value>
+            <value>
+                <fullName>079 (Greene)</fullName>
+                <default>false</default>
+                <label>079 (Greene)</label>
+            </value>
+            <value>
+                <fullName>081 (Greensville)</fullName>
+                <default>false</default>
+                <label>081 (Greensville)</label>
+            </value>
+            <value>
+                <fullName>083 (Halifax)</fullName>
+                <default>false</default>
+                <label>083 (Halifax)</label>
+            </value>
+            <value>
+                <fullName>085 (Hanover)</fullName>
+                <default>false</default>
+                <label>085 (Hanover)</label>
+            </value>
+            <value>
+                <fullName>087 (Henrico)</fullName>
+                <default>false</default>
+                <label>087 (Henrico)</label>
+            </value>
+            <value>
+                <fullName>089 (Henry)</fullName>
+                <default>false</default>
+                <label>089 (Henry)</label>
+            </value>
+            <value>
+                <fullName>091 (Highland)</fullName>
+                <default>false</default>
+                <label>091 (Highland)</label>
+            </value>
+            <value>
+                <fullName>093 (Isle of Wright)</fullName>
+                <default>false</default>
+                <label>093 (Isle of Wright)</label>
+            </value>
+            <value>
+                <fullName>095 (James City)</fullName>
+                <default>false</default>
+                <label>095 (James City)</label>
+            </value>
+            <value>
+                <fullName>097 (King and Queen)</fullName>
+                <default>false</default>
+                <label>097 (King and Queen)</label>
+            </value>
+            <value>
+                <fullName>099 (King George)</fullName>
+                <default>false</default>
+                <label>099 (King George)</label>
+            </value>
+            <value>
+                <fullName>101 (King William)</fullName>
+                <default>false</default>
+                <label>101 (King William)</label>
+            </value>
+            <value>
+                <fullName>103 (Lancaster)</fullName>
+                <default>false</default>
+                <label>103 (Lancaster)</label>
+            </value>
+            <value>
+                <fullName>105 (Lee)</fullName>
+                <default>false</default>
+                <label>105 (Lee)</label>
+            </value>
+            <value>
+                <fullName>107 (Loudoun)</fullName>
+                <default>false</default>
+                <label>107 (Loudoun)</label>
+            </value>
+            <value>
+                <fullName>109 (Louisa)</fullName>
+                <default>false</default>
+                <label>109 (Louisa)</label>
+            </value>
+            <value>
+                <fullName>111 (Lunenberg)</fullName>
+                <default>false</default>
+                <label>111 (Lunenberg)</label>
+            </value>
+            <value>
+                <fullName>113 (Madison)</fullName>
+                <default>false</default>
+                <label>113 (Madison)</label>
+            </value>
+            <value>
+                <fullName>115 (Matthews)</fullName>
+                <default>false</default>
+                <label>115 (Matthews)</label>
+            </value>
+            <value>
+                <fullName>117 (Mecklenburg)</fullName>
+                <default>false</default>
+                <label>117 (Mecklenburg)</label>
+            </value>
+            <value>
+                <fullName>119 (Middlesex)</fullName>
+                <default>false</default>
+                <label>119 (Middlesex)</label>
+            </value>
+            <value>
+                <fullName>121 (Montgomery)</fullName>
+                <default>false</default>
+                <label>121 (Montgomery)</label>
+            </value>
+            <value>
+                <fullName>123 (Nansemond)</fullName>
+                <default>false</default>
+                <label>123 (Nansemond)</label>
+            </value>
+            <value>
+                <fullName>125 (Nelson)</fullName>
+                <default>false</default>
+                <label>125 (Nelson)</label>
+            </value>
+            <value>
+                <fullName>127 (New Kent)</fullName>
+                <default>false</default>
+                <label>127 (New Kent)</label>
+            </value>
+            <value>
+                <fullName>131 (Northampton)</fullName>
+                <default>false</default>
+                <label>131 (Northampton)</label>
+            </value>
+            <value>
+                <fullName>133 (Northumberland)</fullName>
+                <default>false</default>
+                <label>133 (Northumberland)</label>
+            </value>
+            <value>
+                <fullName>135 (Nottoway)</fullName>
+                <default>false</default>
+                <label>135 (Nottoway)</label>
+            </value>
+            <value>
+                <fullName>137 (Orange)</fullName>
+                <default>false</default>
+                <label>137 (Orange)</label>
+            </value>
+            <value>
+                <fullName>139 (Page)</fullName>
+                <default>false</default>
+                <label>139 (Page)</label>
+            </value>
+            <value>
+                <fullName>141 (Patrick)</fullName>
+                <default>false</default>
+                <label>141 (Patrick)</label>
+            </value>
+            <value>
+                <fullName>143 (Pittsylvania)</fullName>
+                <default>false</default>
+                <label>143 (Pittsylvania)</label>
+            </value>
+            <value>
+                <fullName>145 (Powhatan)</fullName>
+                <default>false</default>
+                <label>145 (Powhatan)</label>
+            </value>
+            <value>
+                <fullName>147 (Prince Edward)</fullName>
+                <default>false</default>
+                <label>147 (Prince Edward)</label>
+            </value>
+            <value>
+                <fullName>149 (Prince George)</fullName>
+                <default>false</default>
+                <label>149 (Prince George)</label>
+            </value>
+            <value>
+                <fullName>153 (Prince William)</fullName>
+                <default>false</default>
+                <label>153 (Prince William)</label>
+            </value>
+            <value>
+                <fullName>155 (Pulaski)</fullName>
+                <default>false</default>
+                <label>155 (Pulaski)</label>
+            </value>
+            <value>
+                <fullName>157 (Rappahannock)</fullName>
+                <default>false</default>
+                <label>157 (Rappahannock)</label>
+            </value>
+            <value>
+                <fullName>159 (Richmond County)</fullName>
+                <default>false</default>
+                <label>159 (Richmond County)</label>
+            </value>
+            <value>
+                <fullName>161 (Roanoke County)</fullName>
+                <default>false</default>
+                <label>161 (Roanoke County)</label>
+            </value>
+            <value>
+                <fullName>163 (Rockbridge)</fullName>
+                <default>false</default>
+                <label>163 (Rockbridge)</label>
+            </value>
+            <value>
+                <fullName>165 (Rockingham)</fullName>
+                <default>false</default>
+                <label>165 (Rockingham)</label>
+            </value>
+            <value>
+                <fullName>167 (Russell)</fullName>
+                <default>false</default>
+                <label>167 (Russell)</label>
+            </value>
+            <value>
+                <fullName>169 (Scott)</fullName>
+                <default>false</default>
+                <label>169 (Scott)</label>
+            </value>
+            <value>
+                <fullName>171 (Shenandoah)</fullName>
+                <default>false</default>
+                <label>171 (Shenandoah)</label>
+            </value>
+            <value>
+                <fullName>173 (Smyth)</fullName>
+                <default>false</default>
+                <label>173 (Smyth)</label>
+            </value>
+            <value>
+                <fullName>175 (Southampton)</fullName>
+                <default>false</default>
+                <label>175 (Southampton)</label>
+            </value>
+            <value>
+                <fullName>177 (Spotsylvania)</fullName>
+                <default>false</default>
+                <label>177 (Spotsylvania)</label>
+            </value>
+            <value>
+                <fullName>179 (Stafford)</fullName>
+                <default>false</default>
+                <label>179 (Stafford)</label>
+            </value>
+            <value>
+                <fullName>181 (Surry)</fullName>
+                <default>false</default>
+                <label>181 (Surry)</label>
+            </value>
+            <value>
+                <fullName>183 (Sussex)</fullName>
+                <default>false</default>
+                <label>183 (Sussex)</label>
+            </value>
+            <value>
+                <fullName>185 (Tazewell)</fullName>
+                <default>false</default>
+                <label>185 (Tazewell)</label>
+            </value>
+            <value>
+                <fullName>187 (Warren)</fullName>
+                <default>false</default>
+                <label>187 (Warren)</label>
+            </value>
+            <value>
+                <fullName>191 (Washington)</fullName>
+                <default>false</default>
+                <label>191 (Washington)</label>
+            </value>
+            <value>
+                <fullName>193 (Westmoreland)</fullName>
+                <default>false</default>
+                <label>193 (Westmoreland)</label>
+            </value>
+            <value>
+                <fullName>195 (Wise)</fullName>
+                <default>false</default>
+                <label>195 (Wise)</label>
+            </value>
+            <value>
+                <fullName>197 (Wythe)</fullName>
+                <default>false</default>
+                <label>197 (Wythe)</label>
+            </value>
+            <value>
+                <fullName>199 (York)</fullName>
+                <default>false</default>
+                <label>199 (York)</label>
+            </value>
+            <value>
+                <fullName>510 (Alexandria City)</fullName>
+                <default>false</default>
+                <label>510 (Alexandria City)</label>
+            </value>
+            <value>
+                <fullName>515 (Bedford City)</fullName>
+                <default>false</default>
+                <label>515 (Bedford City)</label>
+            </value>
+            <value>
+                <fullName>520 (Bristol City)</fullName>
+                <default>false</default>
+                <label>520 (Bristol City)</label>
+            </value>
+            <value>
+                <fullName>530 (Buena Vista City)</fullName>
+                <default>false</default>
+                <label>530 (Buena Vista City)</label>
+            </value>
+            <value>
+                <fullName>540 (Charlottesville City)</fullName>
+                <default>false</default>
+                <label>540 (Charlottesville City)</label>
+            </value>
+            <value>
+                <fullName>550 (Chesapeake City)</fullName>
+                <default>false</default>
+                <label>550 (Chesapeake City)</label>
+            </value>
+            <value>
+                <fullName>560 (Clifton Forge)</fullName>
+                <default>false</default>
+                <label>560 (Clifton Forge)</label>
+            </value>
+            <value>
+                <fullName>570 (Colonial Heights City)</fullName>
+                <default>false</default>
+                <label>570 (Colonial Heights City)</label>
+            </value>
+            <value>
+                <fullName>580 (Covington City)</fullName>
+                <default>false</default>
+                <label>580 (Covington City)</label>
+            </value>
+            <value>
+                <fullName>590 (Danville City)</fullName>
+                <default>false</default>
+                <label>590 (Danville City)</label>
+            </value>
+            <value>
+                <fullName>595 (Emporia City)</fullName>
+                <default>false</default>
+                <label>595 (Emporia City)</label>
+            </value>
+            <value>
+                <fullName>600 (Fairfax City)</fullName>
+                <default>false</default>
+                <label>600 (Fairfax City)</label>
+            </value>
+            <value>
+                <fullName>610 (Falls Church City)</fullName>
+                <default>false</default>
+                <label>610 (Falls Church City)</label>
+            </value>
+            <value>
+                <fullName>620 (Franklin City)</fullName>
+                <default>false</default>
+                <label>620 (Franklin City)</label>
+            </value>
+            <value>
+                <fullName>630 (Fredericksburg City)</fullName>
+                <default>false</default>
+                <label>630 (Fredericksburg City)</label>
+            </value>
+            <value>
+                <fullName>640 (Galax City)</fullName>
+                <default>false</default>
+                <label>640 (Galax City)</label>
+            </value>
+            <value>
+                <fullName>650 (Hampton City)</fullName>
+                <default>false</default>
+                <label>650 (Hampton City)</label>
+            </value>
+            <value>
+                <fullName>660 (Harrisonburg City)</fullName>
+                <default>false</default>
+                <label>660 (Harrisonburg City)</label>
+            </value>
+            <value>
+                <fullName>670 (Hopewell City)</fullName>
+                <default>false</default>
+                <label>670 (Hopewell City)</label>
+            </value>
+            <value>
+                <fullName>678 (Lexington City)</fullName>
+                <default>false</default>
+                <label>678 (Lexington City)</label>
+            </value>
+            <value>
+                <fullName>680 (Lynchburg City)</fullName>
+                <default>false</default>
+                <label>680 (Lynchburg City)</label>
+            </value>
+            <value>
+                <fullName>683 (Manassas City)</fullName>
+                <default>false</default>
+                <label>683 (Manassas City)</label>
+            </value>
+            <value>
+                <fullName>685 (Manassas Park City)</fullName>
+                <default>false</default>
+                <label>685 (Manassas Park City)</label>
+            </value>
+            <value>
+                <fullName>690 (Martinsville City)</fullName>
+                <default>false</default>
+                <label>690 (Martinsville City)</label>
+            </value>
+            <value>
+                <fullName>700 (Newport News City)</fullName>
+                <default>false</default>
+                <label>700 (Newport News City)</label>
+            </value>
+            <value>
+                <fullName>710 (Norfolk City)</fullName>
+                <default>false</default>
+                <label>710 (Norfolk City)</label>
+            </value>
+            <value>
+                <fullName>720 (Norton City)</fullName>
+                <default>false</default>
+                <label>720 (Norton City)</label>
+            </value>
+            <value>
+                <fullName>730 (Petersburg City)</fullName>
+                <default>false</default>
+                <label>730 (Petersburg City)</label>
+            </value>
+            <value>
+                <fullName>735 (Poquoson City)</fullName>
+                <default>false</default>
+                <label>735 (Poquoson City)</label>
+            </value>
+            <value>
+                <fullName>740 (Portsmouth City)</fullName>
+                <default>false</default>
+                <label>740 (Portsmouth City)</label>
+            </value>
+            <value>
+                <fullName>750 (Radford City)</fullName>
+                <default>false</default>
+                <label>750 (Radford City)</label>
+            </value>
+            <value>
+                <fullName>760 (Richmond City)</fullName>
+                <default>false</default>
+                <label>760 (Richmond City)</label>
+            </value>
+            <value>
+                <fullName>770 (Roanoke City)</fullName>
+                <default>false</default>
+                <label>770 (Roanoke City)</label>
+            </value>
+            <value>
+                <fullName>775 (Salem City)</fullName>
+                <default>false</default>
+                <label>775 (Salem City)</label>
+            </value>
+            <value>
+                <fullName>780 (South Boston)</fullName>
+                <default>false</default>
+                <label>780 (South Boston)</label>
+            </value>
+            <value>
+                <fullName>790 (Staunton City)</fullName>
+                <default>false</default>
+                <label>790 (Staunton City)</label>
+            </value>
+            <value>
+                <fullName>800 (Suffolk City)</fullName>
+                <default>false</default>
+                <label>800 (Suffolk City)</label>
+            </value>
+            <value>
+                <fullName>810 (Virginia Beach City)</fullName>
+                <default>false</default>
+                <label>810 (Virginia Beach City)</label>
+            </value>
+            <value>
+                <fullName>820 (Waynesboro City)</fullName>
+                <default>false</default>
+                <label>820 (Waynesboro City)</label>
+            </value>
+            <value>
+                <fullName>830 (Williamsburg City)</fullName>
+                <default>false</default>
+                <label>830 (Williamsburg City)</label>
+            </value>
+            <value>
+                <fullName>840 (Winchester City)</fullName>
+                <default>false</default>
+                <label>840 (Winchester City)</label>
+            </value>
+            <value>
+                <fullName>999 (Out of State)</fullName>
+                <default>false</default>
+                <label>999 (Out of State)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

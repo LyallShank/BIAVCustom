@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentation__c</fullName>
+    <externalId>false</externalId>
+    <label>Segmentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Member</fullName>
+                <default>false</default>
+                <label>Business/Advocacy Member</label>
+            </value>
+            <value>
+                <fullName>Conference Exhibitor</fullName>
+                <default>false</default>
+                <label>Conference Exhibitor</label>
+            </value>
+            <value>
+                <fullName>Conference Sponsor</fullName>
+                <default>false</default>
+                <label>Conference Sponsor</label>
+            </value>
+            <value>
+                <fullName>Donor</fullName>
+                <default>false</default>
+                <label>Donor</label>
+            </value>
+            <value>
+                <fullName>Golf Sponsor</fullName>
+                <default>false</default>
+                <label>Golf Sponsor</label>
+            </value>
+            <value>
+                <fullName>Grant</fullName>
+                <default>false</default>
+                <label>Grant</label>
+            </value>
+            <value>
+                <fullName>Legacy Dinner Sponsor</fullName>
+                <default>false</default>
+                <label>Legacy Dinner Sponsor</label>
+            </value>
+            <value>
+                <fullName>Organizational Sponsor</fullName>
+                <default>false</default>
+                <label>Organizational Sponsor</label>
+            </value>
+            <value>
+                <fullName>Vendor/Business</fullName>
+                <default>false</default>
+                <label>Vendor/Business</label>
+            </value>
+            <value>
+                <fullName>Volunteer Group</fullName>
+                <default>false</default>
+                <label>Volunteer Group</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Community Partner</fullName>
+                <default>false</default>
+                <label>Community Partner</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

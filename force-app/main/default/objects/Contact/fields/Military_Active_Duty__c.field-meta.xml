@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Military_Active_Duty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check for current active duty members</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check for current active duty members</inlineHelpText>
+    <label>Military Active Duty</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

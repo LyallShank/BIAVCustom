@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mechanism_of_Injury__c</fullName>
+    <externalId>false</externalId>
+    <label>Mechanism of Injury</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cause_of_Injury__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All-Terrain Vehicle</fullName>
+                <default>false</default>
+                <label>All-Terrain Vehicle</label>
+            </value>
+            <value>
+                <fullName>Anoxia</fullName>
+                <default>false</default>
+                <label>Anoxia</label>
+            </value>
+            <value>
+                <fullName>Assault</fullName>
+                <default>false</default>
+                <label>Assault</label>
+            </value>
+            <value>
+                <fullName>AVM/Aneurysm</fullName>
+                <default>false</default>
+                <label>AVM/Aneurysm</label>
+            </value>
+            <value>
+                <fullName>Bicycle</fullName>
+                <default>false</default>
+                <label>Bicycle</label>
+            </value>
+            <value>
+                <fullName>Blast Injury</fullName>
+                <default>false</default>
+                <label>Blast Injury</label>
+            </value>
+            <value>
+                <fullName>Blow to Head</fullName>
+                <default>false</default>
+                <label>Blow to Head</label>
+            </value>
+            <value>
+                <fullName>CVA</fullName>
+                <default>false</default>
+                <label>CVA</label>
+            </value>
+            <value>
+                <fullName>Electrocution/ Electric Shock</fullName>
+                <default>false</default>
+                <label>Electrocution/ Electric Shock</label>
+            </value>
+            <value>
+                <fullName>Fall</fullName>
+                <default>false</default>
+                <label>Fall</label>
+            </value>
+            <value>
+                <fullName>Gunshot Wound</fullName>
+                <default>false</default>
+                <label>Gunshot Wound</label>
+            </value>
+            <value>
+                <fullName>Medical/ Disease</fullName>
+                <default>false</default>
+                <label>Medical/ Disease</label>
+            </value>
+            <value>
+                <fullName>Motor Vehicle Accident</fullName>
+                <default>false</default>
+                <label>Motor Vehicle Accident</label>
+            </value>
+            <value>
+                <fullName>Motorcycle</fullName>
+                <default>false</default>
+                <label>Motorcycle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pedestrian</fullName>
+                <default>false</default>
+                <label>Pedestrian</label>
+            </value>
+            <value>
+                <fullName>Shaken Baby Syndrome</fullName>
+                <default>false</default>
+                <label>Shaken Baby Syndrome</label>
+            </value>
+            <value>
+                <fullName>Sports/ Recreation</fullName>
+                <default>false</default>
+                <label>Sports/ Recreation</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>All-Terrain Vehicle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Assault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Bicycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Blast Injury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Blow to Head</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Fall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Gunshot Wound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Motor Vehicle Accident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Motorcycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Pedestrian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Shaken Baby Syndrome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <valueName>Sports/ Recreation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Traumatic</controllingFieldValue>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <valueName>Anoxia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <valueName>AVM/Aneurysm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <valueName>CVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <valueName>Electrocution/ Electric Shock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Traumatic Brain Injury</controllingFieldValue>
+            <valueName>Medical/ Disease</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

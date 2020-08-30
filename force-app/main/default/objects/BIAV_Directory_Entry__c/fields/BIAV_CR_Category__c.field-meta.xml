@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIAV_CR_Category__c</fullName>
+    <description>Enter one or more of the Community Resource Categories for this listing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter one or more of the Community Resource Categories for this listing</inlineHelpText>
+    <label>Category</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alternative therapies</fullName>
+                <default>false</default>
+                <label>Alternative therapies</label>
+            </value>
+            <value>
+                <fullName>Attorney</fullName>
+                <default>false</default>
+                <label>Attorney</label>
+            </value>
+            <value>
+                <fullName>Behavior Services</fullName>
+                <default>false</default>
+                <label>Behavior Services</label>
+            </value>
+            <value>
+                <fullName>Case Management</fullName>
+                <default>false</default>
+                <label>Case Management</label>
+            </value>
+            <value>
+                <fullName>Club House</fullName>
+                <default>false</default>
+                <label>Club House</label>
+            </value>
+            <value>
+                <fullName>Cognitive Services</fullName>
+                <default>false</default>
+                <label>Cognitive Services</label>
+            </value>
+            <value>
+                <fullName>Concussion Treatment</fullName>
+                <default>false</default>
+                <label>Concussion Treatment</label>
+            </value>
+            <value>
+                <fullName>Counselor/ Licensed Clinical Social Worker</fullName>
+                <default>false</default>
+                <label>Counselor/ Licensed Clinical Social Worker</label>
+            </value>
+            <value>
+                <fullName>Day Program</fullName>
+                <default>false</default>
+                <label>Day Program</label>
+            </value>
+            <value>
+                <fullName>Day Rehabilitation</fullName>
+                <default>false</default>
+                <label>Day Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Home Admission Program</fullName>
+                <default>false</default>
+                <label>Home Admission Program</label>
+            </value>
+            <value>
+                <fullName>Inpatient Rehabilitation</fullName>
+                <default>false</default>
+                <label>Inpatient Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Long Term Care</fullName>
+                <default>false</default>
+                <label>Long Term Care</label>
+            </value>
+            <value>
+                <fullName>Mental Health Professional</fullName>
+                <default>false</default>
+                <label>Mental Health Professional</label>
+            </value>
+            <value>
+                <fullName>Neurologist</fullName>
+                <default>false</default>
+                <label>Neurologist</label>
+            </value>
+            <value>
+                <fullName>Neuropsychiatrist</fullName>
+                <default>false</default>
+                <label>Neuropsychiatrist</label>
+            </value>
+            <value>
+                <fullName>Neuropsychological assessment</fullName>
+                <default>false</default>
+                <label>Neuropsychological assessment</label>
+            </value>
+            <value>
+                <fullName>Neuropsychologist</fullName>
+                <default>false</default>
+                <label>Neuropsychologist</label>
+            </value>
+            <value>
+                <fullName>Occupational Therapist</fullName>
+                <default>false</default>
+                <label>Occupational Therapist</label>
+            </value>
+            <value>
+                <fullName>Optometrist/Neuro-Optometrist</fullName>
+                <default>false</default>
+                <label>Optometrist/Neuro-Optometrist</label>
+            </value>
+            <value>
+                <fullName>Outpatient Rehabilitation</fullName>
+                <default>false</default>
+                <label>Outpatient Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Pain Management</fullName>
+                <default>false</default>
+                <label>Pain Management</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Physical evaluation and diagnosis</fullName>
+                <default>false</default>
+                <label>Physical evaluation and diagnosis</label>
+            </value>
+            <value>
+                <fullName>Physical Medicine and Rehabilitation</fullName>
+                <default>false</default>
+                <label>Physical Medicine and Rehabilitation</label>
+            </value>
+            <value>
+                <fullName>Physical Therapist</fullName>
+                <default>false</default>
+                <label>Physical Therapist</label>
+            </value>
+            <value>
+                <fullName>Psychiatrist</fullName>
+                <default>false</default>
+                <label>Psychiatrist</label>
+            </value>
+            <value>
+                <fullName>Psychologist</fullName>
+                <default>false</default>
+                <label>Psychologist</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>Return to Work Services</fullName>
+                <default>false</default>
+                <label>Return to Work Services</label>
+            </value>
+            <value>
+                <fullName>Speech-language Pathologist</fullName>
+                <default>false</default>
+                <label>Speech-language Pathologist</label>
+            </value>
+            <value>
+                <fullName>Statewide Service</fullName>
+                <default>false</default>
+                <label>Statewide Service</label>
+            </value>
+            <value>
+                <fullName>Substance Use</fullName>
+                <default>false</default>
+                <label>Substance Use</label>
+            </value>
+            <value>
+                <fullName>Support Group</fullName>
+                <default>false</default>
+                <label>Support Group</label>
+            </value>
+            <value>
+                <fullName>Vestibular Rehabilitation</fullName>
+                <default>false</default>
+                <label>Vestibular Rehabilitation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

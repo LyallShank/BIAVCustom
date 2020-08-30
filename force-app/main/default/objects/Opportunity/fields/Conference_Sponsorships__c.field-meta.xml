@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conference_Sponsorships__c</fullName>
+    <externalId>false</externalId>
+    <label>Conference Sponsorships</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Event Sponsor</fullName>
+                <default>false</default>
+                <label>Event Sponsor</label>
+            </value>
+            <value>
+                <fullName>Premier Sponsor</fullName>
+                <default>false</default>
+                <label>Premier Sponsor</label>
+            </value>
+            <value>
+                <fullName>Patron Sponsor</fullName>
+                <default>false</default>
+                <label>Patron Sponsor</label>
+            </value>
+            <value>
+                <fullName>Exhibitor</fullName>
+                <default>false</default>
+                <label>Exhibitor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

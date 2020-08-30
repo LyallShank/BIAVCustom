@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefit_Sponsor_Package__c</fullName>
+    <externalId>false</externalId>
+    <label>Benefit Sponsor Package</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Friend of BIAV</fullName>
+                <default>false</default>
+                <label>Friend of BIAV</label>
+            </value>
+            <value>
+                <fullName>Table Sponsor</fullName>
+                <default>false</default>
+                <label>Table Sponsor</label>
+            </value>
+            <value>
+                <fullName>Full Slide</fullName>
+                <default>false</default>
+                <label>Full Slide</label>
+            </value>
+            <value>
+                <fullName>Half Slide</fullName>
+                <default>false</default>
+                <label>Half Slide</label>
+            </value>
+            <value>
+                <fullName>Quarter Slide</fullName>
+                <default>false</default>
+                <label>Quarter Slide</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

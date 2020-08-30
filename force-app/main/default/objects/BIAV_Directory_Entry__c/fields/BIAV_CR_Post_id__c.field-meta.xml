@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIAV_CR_Post_id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Unique ID assigned by Directory web app</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique ID assigned by Directory web app</inlineHelpText>
+    <label>dir_post_id</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

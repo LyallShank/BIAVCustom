@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial__c</fullName>
+    <externalId>false</externalId>
+    <label>Financial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Discussed</fullName>
+                <default>true</default>
+                <label>Not Discussed</label>
+            </value>
+            <value>
+                <fullName>None Reported</fullName>
+                <default>false</default>
+                <label>None Reported</label>
+            </value>
+            <value>
+                <fullName>Disability (Short-term)</fullName>
+                <default>false</default>
+                <label>Disability (Short-term)</label>
+            </value>
+            <value>
+                <fullName>Disability (Long-term)</fullName>
+                <default>false</default>
+                <label>Disability (Long-term)</label>
+            </value>
+            <value>
+                <fullName>Employed (Full-time)</fullName>
+                <default>false</default>
+                <label>Employed (Full-time)</label>
+            </value>
+            <value>
+                <fullName>Employed (Part-time)</fullName>
+                <default>false</default>
+                <label>Employed (Part-time)</label>
+            </value>
+            <value>
+                <fullName>Unemployed</fullName>
+                <default>false</default>
+                <label>Unemployed</label>
+            </value>
+            <value>
+                <fullName>Familial Support</fullName>
+                <default>false</default>
+                <label>Familial Support</label>
+            </value>
+            <value>
+                <fullName>Military Pension</fullName>
+                <default>false</default>
+                <label>Military Pension</label>
+            </value>
+            <value>
+                <fullName>Social Security Retirement</fullName>
+                <default>false</default>
+                <label>Social Security Retirement</label>
+            </value>
+            <value>
+                <fullName>SSDI/SSI</fullName>
+                <default>false</default>
+                <label>SSDI/SSI</label>
+            </value>
+            <value>
+                <fullName>Worker&apos;s Comp</fullName>
+                <default>false</default>
+                <label>Worker&apos;s Comp</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>County__c</fullName>
+    <description>This is the county where the contact resides</description>
+    <externalId>false</externalId>
+    <label>County</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accomack</fullName>
+                <default>false</default>
+                <label>Accomack</label>
+            </value>
+            <value>
+                <fullName>Albemarle</fullName>
+                <default>false</default>
+                <label>Albemarle</label>
+            </value>
+            <value>
+                <fullName>Alexandria City</fullName>
+                <default>false</default>
+                <label>Alexandria City</label>
+            </value>
+            <value>
+                <fullName>Alleghany</fullName>
+                <default>false</default>
+                <label>Alleghany</label>
+            </value>
+            <value>
+                <fullName>Amelia</fullName>
+                <default>false</default>
+                <label>Amelia</label>
+            </value>
+            <value>
+                <fullName>Amherst</fullName>
+                <default>false</default>
+                <label>Amherst</label>
+            </value>
+            <value>
+                <fullName>Appomattox</fullName>
+                <default>false</default>
+                <label>Appomattox</label>
+            </value>
+            <value>
+                <fullName>Arlington</fullName>
+                <default>false</default>
+                <label>Arlington</label>
+            </value>
+            <value>
+                <fullName>Augusta</fullName>
+                <default>false</default>
+                <label>Augusta</label>
+            </value>
+            <value>
+                <fullName>Bath</fullName>
+                <default>false</default>
+                <label>Bath</label>
+            </value>
+            <value>
+                <fullName>Bedford</fullName>
+                <default>false</default>
+                <label>Bedford</label>
+            </value>
+            <value>
+                <fullName>Bedford City</fullName>
+                <default>false</default>
+                <label>Bedford City</label>
+            </value>
+            <value>
+                <fullName>Bland</fullName>
+                <default>false</default>
+                <label>Bland</label>
+            </value>
+            <value>
+                <fullName>Botetourt</fullName>
+                <default>false</default>
+                <label>Botetourt</label>
+            </value>
+            <value>
+                <fullName>Bristol City</fullName>
+                <default>false</default>
+                <label>Bristol City</label>
+            </value>
+            <value>
+                <fullName>Brunswick</fullName>
+                <default>false</default>
+                <label>Brunswick</label>
+            </value>
+            <value>
+                <fullName>Buchanan</fullName>
+                <default>false</default>
+                <label>Buchanan</label>
+            </value>
+            <value>
+                <fullName>Buckingham</fullName>
+                <default>false</default>
+                <label>Buckingham</label>
+            </value>
+            <value>
+                <fullName>Buena Vista City</fullName>
+                <default>false</default>
+                <label>Buena Vista City</label>
+            </value>
+            <value>
+                <fullName>Campbell</fullName>
+                <default>false</default>
+                <label>Campbell</label>
+            </value>
+            <value>
+                <fullName>Caroline</fullName>
+                <default>false</default>
+                <label>Caroline</label>
+            </value>
+            <value>
+                <fullName>Carroll</fullName>
+                <default>false</default>
+                <label>Carroll</label>
+            </value>
+            <value>
+                <fullName>Charles City</fullName>
+                <default>false</default>
+                <label>Charles City</label>
+            </value>
+            <value>
+                <fullName>Charlotte</fullName>
+                <default>false</default>
+                <label>Charlotte</label>
+            </value>
+            <value>
+                <fullName>Charlottesville City</fullName>
+                <default>false</default>
+                <label>Charlottesville City</label>
+            </value>
+            <value>
+                <fullName>Chesapeake City</fullName>
+                <default>false</default>
+                <label>Chesapeake City</label>
+            </value>
+            <value>
+                <fullName>Chesterfield</fullName>
+                <default>false</default>
+                <label>Chesterfield</label>
+            </value>
+            <value>
+                <fullName>Clarke</fullName>
+                <default>false</default>
+                <label>Clarke</label>
+            </value>
+            <value>
+                <fullName>Clifton Forge</fullName>
+                <default>false</default>
+                <label>Clifton Forge</label>
+            </value>
+            <value>
+                <fullName>Colonial Heights City</fullName>
+                <default>false</default>
+                <label>Colonial Heights City</label>
+            </value>
+            <value>
+                <fullName>Covington City</fullName>
+                <default>false</default>
+                <label>Covington City</label>
+            </value>
+            <value>
+                <fullName>Craig</fullName>
+                <default>false</default>
+                <label>Craig</label>
+            </value>
+            <value>
+                <fullName>Culpeper</fullName>
+                <default>false</default>
+                <label>Culpeper</label>
+            </value>
+            <value>
+                <fullName>Cumberland</fullName>
+                <default>false</default>
+                <label>Cumberland</label>
+            </value>
+            <value>
+                <fullName>Danville City</fullName>
+                <default>false</default>
+                <label>Danville City</label>
+            </value>
+            <value>
+                <fullName>Dickenson</fullName>
+                <default>false</default>
+                <label>Dickenson</label>
+            </value>
+            <value>
+                <fullName>Dinwiddie</fullName>
+                <default>false</default>
+                <label>Dinwiddie</label>
+            </value>
+            <value>
+                <fullName>Emporia City</fullName>
+                <default>false</default>
+                <label>Emporia City</label>
+            </value>
+            <value>
+                <fullName>Essex</fullName>
+                <default>false</default>
+                <label>Essex</label>
+            </value>
+            <value>
+                <fullName>Fairfax City</fullName>
+                <default>false</default>
+                <label>Fairfax City</label>
+            </value>
+            <value>
+                <fullName>Fairfax County</fullName>
+                <default>false</default>
+                <label>Fairfax County</label>
+            </value>
+            <value>
+                <fullName>Falls Church City</fullName>
+                <default>false</default>
+                <label>Falls Church City</label>
+            </value>
+            <value>
+                <fullName>Fauquier</fullName>
+                <default>false</default>
+                <label>Fauquier</label>
+            </value>
+            <value>
+                <fullName>Floyd</fullName>
+                <default>false</default>
+                <label>Floyd</label>
+            </value>
+            <value>
+                <fullName>Fluvanna</fullName>
+                <default>false</default>
+                <label>Fluvanna</label>
+            </value>
+            <value>
+                <fullName>Franklin City</fullName>
+                <default>false</default>
+                <label>Franklin City</label>
+            </value>
+            <value>
+                <fullName>Franklin County</fullName>
+                <default>false</default>
+                <label>Franklin County</label>
+            </value>
+            <value>
+                <fullName>Frederick</fullName>
+                <default>false</default>
+                <label>Frederick</label>
+            </value>
+            <value>
+                <fullName>Fredericksburg City</fullName>
+                <default>false</default>
+                <label>Fredericksburg City</label>
+            </value>
+            <value>
+                <fullName>Galax City</fullName>
+                <default>false</default>
+                <label>Galax City</label>
+            </value>
+            <value>
+                <fullName>Giles</fullName>
+                <default>false</default>
+                <label>Giles</label>
+            </value>
+            <value>
+                <fullName>Gloucester</fullName>
+                <default>false</default>
+                <label>Gloucester</label>
+            </value>
+            <value>
+                <fullName>Goochland</fullName>
+                <default>false</default>
+                <label>Goochland</label>
+            </value>
+            <value>
+                <fullName>Grayson</fullName>
+                <default>false</default>
+                <label>Grayson</label>
+            </value>
+            <value>
+                <fullName>Greene</fullName>
+                <default>false</default>
+                <label>Greene</label>
+            </value>
+            <value>
+                <fullName>Greensville</fullName>
+                <default>false</default>
+                <label>Greensville</label>
+            </value>
+            <value>
+                <fullName>Halifax</fullName>
+                <default>false</default>
+                <label>Halifax</label>
+            </value>
+            <value>
+                <fullName>Hampton City</fullName>
+                <default>false</default>
+                <label>Hampton City</label>
+            </value>
+            <value>
+                <fullName>Hanover</fullName>
+                <default>false</default>
+                <label>Hanover</label>
+            </value>
+            <value>
+                <fullName>Harrisonburg City</fullName>
+                <default>false</default>
+                <label>Harrisonburg City</label>
+            </value>
+            <value>
+                <fullName>Henrico</fullName>
+                <default>false</default>
+                <label>Henrico</label>
+            </value>
+            <value>
+                <fullName>Henry</fullName>
+                <default>false</default>
+                <label>Henry</label>
+            </value>
+            <value>
+                <fullName>Highland</fullName>
+                <default>false</default>
+                <label>Highland</label>
+            </value>
+            <value>
+                <fullName>Hopewell City</fullName>
+                <default>false</default>
+                <label>Hopewell City</label>
+            </value>
+            <value>
+                <fullName>Isle of Wright</fullName>
+                <default>false</default>
+                <label>Isle of Wright</label>
+            </value>
+            <value>
+                <fullName>James City</fullName>
+                <default>false</default>
+                <label>James City</label>
+            </value>
+            <value>
+                <fullName>King and Queen</fullName>
+                <default>false</default>
+                <label>King and Queen</label>
+            </value>
+            <value>
+                <fullName>King George</fullName>
+                <default>false</default>
+                <label>King George</label>
+            </value>
+            <value>
+                <fullName>King William</fullName>
+                <default>false</default>
+                <label>King William</label>
+            </value>
+            <value>
+                <fullName>Lancaster</fullName>
+                <default>false</default>
+                <label>Lancaster</label>
+            </value>
+            <value>
+                <fullName>Lee</fullName>
+                <default>false</default>
+                <label>Lee</label>
+            </value>
+            <value>
+                <fullName>Lexington City</fullName>
+                <default>false</default>
+                <label>Lexington City</label>
+            </value>
+            <value>
+                <fullName>Loudoun</fullName>
+                <default>false</default>
+                <label>Loudoun</label>
+            </value>
+            <value>
+                <fullName>Louisa</fullName>
+                <default>false</default>
+                <label>Louisa</label>
+            </value>
+            <value>
+                <fullName>Lunenberg</fullName>
+                <default>false</default>
+                <label>Lunenberg</label>
+            </value>
+            <value>
+                <fullName>Lynchburg City</fullName>
+                <default>false</default>
+                <label>Lynchburg City</label>
+            </value>
+            <value>
+                <fullName>Madison</fullName>
+                <default>false</default>
+                <label>Madison</label>
+            </value>
+            <value>
+                <fullName>Manassas City</fullName>
+                <default>false</default>
+                <label>Manassas City</label>
+            </value>
+            <value>
+                <fullName>Manassas Park City</fullName>
+                <default>false</default>
+                <label>Manassas Park City</label>
+            </value>
+            <value>
+                <fullName>Martinsville City</fullName>
+                <default>false</default>
+                <label>Martinsville City</label>
+            </value>
+            <value>
+                <fullName>Matthews</fullName>
+                <default>false</default>
+                <label>Matthews</label>
+            </value>
+            <value>
+                <fullName>Mecklenburg</fullName>
+                <default>false</default>
+                <label>Mecklenburg</label>
+            </value>
+            <value>
+                <fullName>Middlesex</fullName>
+                <default>false</default>
+                <label>Middlesex</label>
+            </value>
+            <value>
+                <fullName>Montgomery</fullName>
+                <default>false</default>
+                <label>Montgomery</label>
+            </value>
+            <value>
+                <fullName>Nansemond</fullName>
+                <default>false</default>
+                <label>Nansemond</label>
+            </value>
+            <value>
+                <fullName>Nelson</fullName>
+                <default>false</default>
+                <label>Nelson</label>
+            </value>
+            <value>
+                <fullName>New Kent</fullName>
+                <default>false</default>
+                <label>New Kent</label>
+            </value>
+            <value>
+                <fullName>Newport News City</fullName>
+                <default>false</default>
+                <label>Newport News City</label>
+            </value>
+            <value>
+                <fullName>Norfolk City</fullName>
+                <default>false</default>
+                <label>Norfolk City</label>
+            </value>
+            <value>
+                <fullName>Northampton</fullName>
+                <default>false</default>
+                <label>Northampton</label>
+            </value>
+            <value>
+                <fullName>Northumberland</fullName>
+                <default>false</default>
+                <label>Northumberland</label>
+            </value>
+            <value>
+                <fullName>Norton City</fullName>
+                <default>false</default>
+                <label>Norton City</label>
+            </value>
+            <value>
+                <fullName>Nottoway</fullName>
+                <default>false</default>
+                <label>Nottoway</label>
+            </value>
+            <value>
+                <fullName>Orange</fullName>
+                <default>false</default>
+                <label>Orange</label>
+            </value>
+            <value>
+                <fullName>Page</fullName>
+                <default>false</default>
+                <label>Page</label>
+            </value>
+            <value>
+                <fullName>Patrick</fullName>
+                <default>false</default>
+                <label>Patrick</label>
+            </value>
+            <value>
+                <fullName>Petersburg City</fullName>
+                <default>false</default>
+                <label>Petersburg City</label>
+            </value>
+            <value>
+                <fullName>Pittsylvania</fullName>
+                <default>false</default>
+                <label>Pittsylvania</label>
+            </value>
+            <value>
+                <fullName>Poquoson City</fullName>
+                <default>false</default>
+                <label>Poquoson City</label>
+            </value>
+            <value>
+                <fullName>Portsmouth City</fullName>
+                <default>false</default>
+                <label>Portsmouth City</label>
+            </value>
+            <value>
+                <fullName>Powhatan</fullName>
+                <default>false</default>
+                <label>Powhatan</label>
+            </value>
+            <value>
+                <fullName>Prince Edward</fullName>
+                <default>false</default>
+                <label>Prince Edward</label>
+            </value>
+            <value>
+                <fullName>Prince George</fullName>
+                <default>false</default>
+                <label>Prince George</label>
+            </value>
+            <value>
+                <fullName>Prince William</fullName>
+                <default>false</default>
+                <label>Prince William</label>
+            </value>
+            <value>
+                <fullName>Pulaski</fullName>
+                <default>false</default>
+                <label>Pulaski</label>
+            </value>
+            <value>
+                <fullName>Radford City</fullName>
+                <default>false</default>
+                <label>Radford City</label>
+            </value>
+            <value>
+                <fullName>Rappahannock</fullName>
+                <default>false</default>
+                <label>Rappahannock</label>
+            </value>
+            <value>
+                <fullName>Richmond City</fullName>
+                <default>false</default>
+                <label>Richmond City</label>
+            </value>
+            <value>
+                <fullName>Richmond County</fullName>
+                <default>false</default>
+                <label>Richmond County</label>
+            </value>
+            <value>
+                <fullName>Roanoke City</fullName>
+                <default>false</default>
+                <label>Roanoke City</label>
+            </value>
+            <value>
+                <fullName>Roanoke County</fullName>
+                <default>false</default>
+                <label>Roanoke County</label>
+            </value>
+            <value>
+                <fullName>Rockbridge</fullName>
+                <default>false</default>
+                <label>Rockbridge</label>
+            </value>
+            <value>
+                <fullName>Rockingham</fullName>
+                <default>false</default>
+                <label>Rockingham</label>
+            </value>
+            <value>
+                <fullName>Russell</fullName>
+                <default>false</default>
+                <label>Russell</label>
+            </value>
+            <value>
+                <fullName>Salem City</fullName>
+                <default>false</default>
+                <label>Salem City</label>
+            </value>
+            <value>
+                <fullName>Scott</fullName>
+                <default>false</default>
+                <label>Scott</label>
+            </value>
+            <value>
+                <fullName>Shenandoah</fullName>
+                <default>false</default>
+                <label>Shenandoah</label>
+            </value>
+            <value>
+                <fullName>Smyth</fullName>
+                <default>false</default>
+                <label>Smyth</label>
+            </value>
+            <value>
+                <fullName>South Boston</fullName>
+                <default>false</default>
+                <label>South Boston</label>
+            </value>
+            <value>
+                <fullName>Southampton</fullName>
+                <default>false</default>
+                <label>Southampton</label>
+            </value>
+            <value>
+                <fullName>Spotsylvania</fullName>
+                <default>false</default>
+                <label>Spotsylvania</label>
+            </value>
+            <value>
+                <fullName>Stafford</fullName>
+                <default>false</default>
+                <label>Stafford</label>
+            </value>
+            <value>
+                <fullName>Staunton City</fullName>
+                <default>false</default>
+                <label>Staunton City</label>
+            </value>
+            <value>
+                <fullName>Suffolk City</fullName>
+                <default>false</default>
+                <label>Suffolk City</label>
+            </value>
+            <value>
+                <fullName>Surry</fullName>
+                <default>false</default>
+                <label>Surry</label>
+            </value>
+            <value>
+                <fullName>Sussex</fullName>
+                <default>false</default>
+                <label>Sussex</label>
+            </value>
+            <value>
+                <fullName>Tazewell</fullName>
+                <default>false</default>
+                <label>Tazewell</label>
+            </value>
+            <value>
+                <fullName>Virginia Beach City</fullName>
+                <default>false</default>
+                <label>Virginia Beach City</label>
+            </value>
+            <value>
+                <fullName>Warren</fullName>
+                <default>false</default>
+                <label>Warren</label>
+            </value>
+            <value>
+                <fullName>Washington</fullName>
+                <default>false</default>
+                <label>Washington</label>
+            </value>
+            <value>
+                <fullName>Waynesboro City</fullName>
+                <default>false</default>
+                <label>Waynesboro City</label>
+            </value>
+            <value>
+                <fullName>Westmoreland</fullName>
+                <default>false</default>
+                <label>Westmoreland</label>
+            </value>
+            <value>
+                <fullName>Williamsburg City</fullName>
+                <default>false</default>
+                <label>Williamsburg City</label>
+            </value>
+            <value>
+                <fullName>Winchester City</fullName>
+                <default>false</default>
+                <label>Winchester City</label>
+            </value>
+            <value>
+                <fullName>Wise</fullName>
+                <default>false</default>
+                <label>Wise</label>
+            </value>
+            <value>
+                <fullName>Wythe</fullName>
+                <default>false</default>
+                <label>Wythe</label>
+            </value>
+            <value>
+                <fullName>York</fullName>
+                <default>false</default>
+                <label>York</label>
+            </value>
+            <value>
+                <fullName>Out of State</fullName>
+                <default>false</default>
+                <label>Out of State</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

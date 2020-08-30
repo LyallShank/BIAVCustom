@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant</fullName>
+    <active>true</active>
+    <businessProcess>Donation</businessProcess>
+    <description>Grant Received</description>
+    <label>Grant</label>
+    <picklistValues>
+        <picklist>Benefit_Sponsor_Package__c</picklist>
+        <values>
+            <fullName>Friend of BIAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Slide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half Slide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarter Slide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table Sponsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Camp_Enrollment_Status__c</picklist>
+        <values>
+            <fullName>Week 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week 1 %26 Mini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week 1 %26 Mini %26 Week 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week 1 %26 Week 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Week 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Conference_Sponsorships__c</picklist>
+        <values>
+            <fullName>Event Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patron Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Sponsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Golf_Packages__c</picklist>
+        <values>
+            <fullName>Beverage Cart Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hole Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual Player</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Practice Tee or Putting Green Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reception Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Sponsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Notification_Preference__c</picklist>
+        <values>
+            <fullName>E-mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Number_of_benefit_tckets__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Method__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card %28website%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Deposit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ticket_Type__c</picklist>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survivor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tribute_Category__c</picklist>
+        <values>
+            <fullName>In Honor of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Memory of</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Member_Level__c</picklist>
+        <values>
+            <fullName>Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Membership_Origin__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reacquire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+        <values>
+            <fullName>All Opportunities</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Opportunities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Acknowledgment_Status__c</picklist>
+        <values>
+            <fullName>Email Acknowledgment Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Now</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

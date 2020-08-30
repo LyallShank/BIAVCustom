@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Call</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial IRFA Phone Call</fullName>
+                <default>false</default>
+                <label>Initial IRFA Phone Call</label>
+            </value>
+            <value>
+                <fullName>First Follow Up Call</fullName>
+                <default>false</default>
+                <label>First Follow Up Call</label>
+            </value>
+            <value>
+                <fullName>Second Follow Up Call</fullName>
+                <default>false</default>
+                <label>Second Follow Up Call</label>
+            </value>
+            <value>
+                <fullName>Follow Up Not Required</fullName>
+                <default>false</default>
+                <label>Follow Up Not Required</label>
+            </value>
+            <value>
+                <fullName>Follow Up Declined</fullName>
+                <default>false</default>
+                <label>Follow Up Declined</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

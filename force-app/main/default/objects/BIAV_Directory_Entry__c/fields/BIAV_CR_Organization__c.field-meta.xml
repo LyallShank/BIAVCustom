@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIAV_CR_Organization__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SF Organization of the Community Resource</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SF Organization of the Community Resource</inlineHelpText>
+    <label>Organization</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>Community_Resources</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

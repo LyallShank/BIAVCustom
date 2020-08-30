@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIAV_CR_Email__c</fullName>
+    <description>Email listing for Community Resource</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email listing for Community Resource</inlineHelpText>
+    <label>dir_email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

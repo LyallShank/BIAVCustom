@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes_from_Contact__c</fullName>
+    <description>This field is used by FormStack - do not change the Field Name with out coordinating with a change in FormStack</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use bullet points and keep to a minimum
+Can use to further explain &quot;other&quot; from drop downs</inlineHelpText>
+    <label>Case Notes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credit Card (website)</fullName>
+                <default>false</default>
+                <label>Credit Card (website)</label>
+            </value>
+            <value>
+                <fullName>Check</fullName>
+                <default>false</default>
+                <label>Check</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Online Deposit</fullName>
+                <default>false</default>
+                <label>Online Deposit</label>
+            </value>
+            <value>
+                <fullName>Allstate</fullName>
+                <default>false</default>
+                <label>Allstate</label>
+            </value>
+            <value>
+                <fullName>Amazon Smile Foundation</fullName>
+                <default>false</default>
+                <label>Amazon Smile Foundation</label>
+            </value>
+            <value>
+                <fullName>America Cyber Grant</fullName>
+                <default>false</default>
+                <label>America Cyber Grant</label>
+            </value>
+            <value>
+                <fullName>CAFA Cyber Grant</fullName>
+                <default>false</default>
+                <label>CAFA Cyber Grant</label>
+            </value>
+            <value>
+                <fullName>Charities Aid Foundation of America</fullName>
+                <default>false</default>
+                <label>Charities Aid Foundation of America</label>
+            </value>
+            <value>
+                <fullName>Community Health Charities</fullName>
+                <default>false</default>
+                <label>Community Health Charities</label>
+            </value>
+            <value>
+                <fullName>Facebook Payments</fullName>
+                <default>false</default>
+                <label>Facebook Payments</label>
+            </value>
+            <value>
+                <fullName>Network for Good</fullName>
+                <default>false</default>
+                <label>Network for Good</label>
+            </value>
+            <value>
+                <fullName>Paypal Charities Giving Fund</fullName>
+                <default>false</default>
+                <label>Paypal Charities Giving Fund</label>
+            </value>
+            <value>
+                <fullName>United Way</fullName>
+                <default>false</default>
+                <label>United Way</label>
+            </value>
+            <value>
+                <fullName>Your Cause LLC</fullName>
+                <default>false</default>
+                <label>Your Cause LLC</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

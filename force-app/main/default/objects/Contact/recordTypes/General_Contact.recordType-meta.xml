@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Contact</fullName>
+    <active>true</active>
+    <description>Use this record type for contacts whose primary relationship to BIAV is that of a donor, or I&amp;R caller (not PWBI)</description>
+    <label>General Contact</label>
+    <picklistValues>
+        <picklist>BIAV_HH_Account_Status__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Confirmation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brain_Injury_diagnosed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cause_of_Injury__c</picklist>
+        <values>
+            <fullName>Non-Traumatic Brain Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traumatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cause_of_Second_Injury__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Traumatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traumatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>County__c</picklist>
+        <values>
+            <fullName>Accomack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albemarle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alexandria City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alleghany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amelia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amherst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appomattox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arlington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Augusta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bedford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bedford City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Botetourt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bristol City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brunswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buchanan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buckingham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buena Vista City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campbell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caroline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charles City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlottesville City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chesapeake City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chesterfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clarke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clifton Forge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colonial Heights City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covington City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Craig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Culpeper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cumberland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danville City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dickenson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dinwiddie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emporia City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Essex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fairfax City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fairfax County</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falls Church City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fauquier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floyd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluvanna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franklin City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franklin County</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frederick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fredericksburg City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galax City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Giles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gloucester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goochland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grayson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greene</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greensville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halifax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampton City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harrisonburg City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Henrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Henry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hopewell City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isle of Wright</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>King George</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>King William</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>King and Queen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lancaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexington City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loudoun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunenberg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lynchburg City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manassas City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manassas Park City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Martinsville City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matthews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mecklenburg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middlesex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montgomery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nansemond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nelson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Kent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newport News City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norfolk City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northampton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northumberland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norton City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nottoway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petersburg City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pittsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poquoson City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portsmouth City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Powhatan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince Edward</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince George</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince William</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulaski</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radford City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rappahannock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richmond City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richmond County</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roanoke City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roanoke County</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockbridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockingham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salem City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scott</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shenandoah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smyth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Boston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southampton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stafford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staunton City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suffolk City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sussex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tazewell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Beach City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waynesboro City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Westmoreland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Williamsburg City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winchester City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wythe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>York</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ethnicity__c</picklist>
+        <values>
+            <fullName>Hispanic or Latino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Hispanic or Non-Latino</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FIPS_Code__c</picklist>
+        <values>
+            <fullName>000 %28Not Completed%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>000 %28Unknown%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>001 %28Accomack%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>003 %28Albemarle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>005 %28Alleghany%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>007 %28Amelia%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>009 %28Amherst%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>011 %28Appomattox%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>013 %28Arlington%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>015 %28Augusta%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>017 %28Bath%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>019 %28Bedford%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>021 %28Bland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>023 %28Botecourt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>025 %28Brunswick%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>027 %28Buchanan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>029 %28Buckingham%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>031 %28Campbell%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>033 %28Caroline%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>035 %28Carroll%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>036 %28Charles City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>037 %28Charlotte%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>041 %28Chesterfield%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>043 %28Clarke%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>045 %28Craig%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>047 %28Culpeper%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>049 %28Cumberland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>051 %28Dickenson%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>053 %28Dinwiddie%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>057 %28Essex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>059 %28Fairfax County%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>061 %28Fauquier%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>063 %28Floyd%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>065 %28Fluvanna%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>067 %28Franklin County%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>069 %28Frederick%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>071 %28Giles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>073 %28Gloucester%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>075 %28Goochland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>077 %28Grayson%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>079 %28Greene%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>081 %28Greensville%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>083 %28Halifax%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>085 %28Hanover%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>087 %28Henrico%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>089 %28Henry%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>091 %28Highland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>093 %28Isle of Wright%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>095 %28James City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>097 %28King and Queen%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>099 %28King George%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>101 %28King William%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103 %28Lancaster%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105 %28Lee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107 %28Loudoun%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>109 %28Louisa%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111 %28Lunenberg%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>113 %28Madison%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115 %28Matthews%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>117 %28Mecklenburg%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>119 %28Middlesex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>121 %28Montgomery%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>123 %28Nansemond%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125 %28Nelson%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>127 %28New Kent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>131 %28Northampton%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>133 %28Northumberland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 %28Nottoway%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>137 %28Orange%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>139 %28Page%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>141 %28Patrick%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>143 %28Pittsylvania%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>145 %28Powhatan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>147 %28Prince Edward%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>149 %28Prince George%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>153 %28Prince William%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>155 %28Pulaski%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>157 %28Rappahannock%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>159 %28Richmond County%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>161 %28Roanoke County%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>163 %28Rockbridge%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>165 %28Rockingham%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>167 %28Russell%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>169 %28Scott%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>171 %28Shenandoah%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173 %28Smyth%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>175 %28Southampton%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>177 %28Spotsylvania%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>179 %28Stafford%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>181 %28Surry%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>183 %28Sussex%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>185 %28Tazewell%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>187 %28Warren%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>191 %28Washington%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>193 %28Westmoreland%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>195 %28Wise%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>197 %28Wythe%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>199 %28York%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>510 %28Alexandria City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>515 %28Bedford City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>520 %28Bristol City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>530 %28Buena Vista City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>540 %28Charlottesville City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550 %28Chesapeake City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>560 %28Clifton Forge%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>570 %28Colonial Heights City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>580 %28Covington City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>590 %28Danville City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>595 %28Emporia City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 %28Fairfax City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610 %28Falls Church City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>620 %28Franklin City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>630 %28Fredericksburg City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>640 %28Galax City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>650 %28Hampton City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>660 %28Harrisonburg City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>670 %28Hopewell City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>678 %28Lexington City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>680 %28Lynchburg City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>683 %28Manassas City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>685 %28Manassas Park City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>690 %28Martinsville City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>700 %28Newport News City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>710 %28Norfolk City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>720 %28Norton City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>730 %28Petersburg City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>735 %28Poquoson City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>740 %28Portsmouth City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>750 %28Radford City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>760 %28Richmond City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>770 %28Roanoke City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>775 %28Salem City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>780 %28South Boston%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>790 %28Staunton City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800 %28Suffolk City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>810 %28Virginia Beach City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>820 %28Waynesboro City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>830 %28Williamsburg City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>840 %28Winchester City%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>999 %28Out of State%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Finance_Info__c</picklist>
+        <values>
+            <fullName>Decreased Family Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full-Time Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Term Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military Pension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part-Time Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Pension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Term Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Security Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker%27s Comp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Availability__c</picklist>
+        <values>
+            <fullName>Afternoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekdays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Skills__c</picklist>
+        <values>
+            <fullName>Computer usage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Administrative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Advisory Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int - Speakers Bureau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Int-Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual labor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photography</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GW_Volunteers__Volunteer_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospective</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Have_you_received_consultation_re_BI__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Housing_Information__c</picklist>
+        <values>
+            <fullName>Assisted Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correctional Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foster Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home%2F Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homeless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICF%2FMR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nursing Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Congregate Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychiatric Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehab Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substance Abuse Residential Program</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance__c</picklist>
+        <values>
+            <fullName>Medicaid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Health Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tricare</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Title__c</picklist>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correctional professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government official</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Worker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substance use counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Therapist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vocational Counselor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marital_Status__c</picklist>
+        <values>
+            <fullName>Divorced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Married</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never Married</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Widowed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanism_of_Injury__c</picklist>
+        <values>
+            <fullName>AVM%2FAneurysm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All-Terrain Vehicle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anoxia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bicycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blow to Head</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrocution%2F Electric Shock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gunshot Wound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical%2F Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Vehicle Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorcycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedestrian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaken Baby Syndrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports%2F Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanism_of_Second_Injury__c</picklist>
+        <values>
+            <fullName>AVM%2F Aneurysm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All-Terrain Vehicle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anoxia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bicycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blast Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blow to Head</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrocution%2F Electric Shock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gun Shot Wound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical%2F Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Vehicle Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaken Baby Syndrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports%2F Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>UseOnlyNone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Race__c</picklist>
+        <values>
+            <fullName>American Indian%2FAlaskan Native</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Native Hawaiian or other Pacific Islander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referred_By__c</picklist>
+        <values>
+            <fullName>Acute Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIAV Brochure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIAV Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brain Injury Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBS%2FSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSB%2FMH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DARS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detention Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Violence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guardian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Service Directory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inpatient Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Term Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other BIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outpatient Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probation Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheltering Arms Institute %28SAI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterans Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker%27s Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>dLCV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Relation_to_BIAV__c</picklist>
+        <values>
+            <fullName>BIAV Resource Directory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camp Staff%2F Volunteer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camper Not Eligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Volunteer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family%2FFriend of PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I %26 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislative Advocate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group Facilitator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation__c</picklist>
+        <values>
+            <fullName>BIAV Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board-Current</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board-Former</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camp Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camp Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caregiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caregiver Forum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cmpr-Ineligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference Sponsor%2FExhibitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference-Making Headway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference-Professionals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference-Speaker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Member of PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend of PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Participant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Dinner Participant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Dinner Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member-Current</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member-Former</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking Event Participant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group Leader Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group Leader-Current</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group Leader-Former</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group-Participant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Participant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VBIC Virginia Brain Injury Council-Current</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VBIC Virginia Brain Injury Council-Former</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor%2FBusiness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar participant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unmet_Needs__c</picklist>
+        <values>
+            <fullName>CSB Denied Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clubhouse%2F Day Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Support Services%2F IADL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congregate Living Familiar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Culturally Competent Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Neurobehavioral Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Familiar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subacute Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Veteran__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Interests__c</picklist>
+        <values>
+            <fullName>Administrative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisory Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speakers Bureau</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Volunteer_Lead_Source__c</picklist>
+        <values>
+            <fullName>BIAV Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Who_does_PWBI_reside_with__c</picklist>
+        <values>
+            <fullName>Alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live-In Attendant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roommate%28s%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__PreferredPhone__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Preferred_Email__c</picklist>
+        <values>
+            <fullName>Alternate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Primary_Address_Type__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Secondary_Address_Type__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__SystemAccountProcessor__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-to-One</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__Naming_Exclusions__c</picklist>
+        <values>
+            <fullName>Household%5F%5Fc%2EFormal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household%5F%5Fc%2EInformal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household%5F%5Fc%2EName</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__SystemHouseholdProcessor__c</picklist>
+        <values>
+            <fullName>All Individual Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All New or Edited Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Contacts</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

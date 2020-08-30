@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_IRFA</fullName>
+    <active>false</active>
+    <businessProcess>I%26R</businessProcess>
+    <description>Use this record type to record information from the first IRFA program follow-up contact</description>
+    <label>First IRFA</label>
+    <picklistValues>
+        <picklist>ADL_s__c</picklist>
+        <values>
+            <fullName>Home Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Additional_Communication_Method__c</picklist>
+        <values>
+            <fullName>chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>in person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Barriers_to_Follow_Through__c</picklist>
+        <values>
+            <fullName>Cognitive issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No support system</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other health issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor support system</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waitlist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Behavioral__c</picklist>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sexually Inappropriate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Call_Status__c</picklist>
+        <values>
+            <fullName>First Follow Up Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial IRFA Phone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Second Follow Up Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cognitive_Deficit__c</picklist>
+        <values>
+            <fullName>Concentration%2FAttention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Initiation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reasoning%2FDecision-Making</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Communication__c</picklist>
+        <values>
+            <fullName>Assistive Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprehension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expression</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hearing loss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Community_Support_Barrier_Detail__c</picklist>
+        <values>
+            <fullName>Inaccessible- geographically%2F physically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccessible- not open to PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- duration or intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- provider unfamiliar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- cultural competence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- self-determination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of personal funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unavailable in VA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Education__c</picklist>
+        <values>
+            <fullName>504 Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accommodations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial_Detail__c</picklist>
+        <values>
+            <fullName>Inaccessible- geographically%2F physically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccessible- not open to PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- duration or intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- provider unfamiliar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- cultural competence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- self-determination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of personal funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unavailable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial__c</picklist>
+        <values>
+            <fullName>Disability %28Long-term%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability %28Short-term%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employed %28Full-time%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employed %28Part-time%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Familial Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military Pension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSDI%2FSSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Security Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worker%27s Comp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Health_Barrier_Detail__c</picklist>
+        <values>
+            <fullName>Inaccessible- geographically%2F physically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccessible- not open to PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- duration or intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- provider unfamiliar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- cultural competence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- self-determination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of personal funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unavailable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Housing_Detail__c</picklist>
+        <values>
+            <fullName>Inaccessible- geographically%2F physically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccessible- not open to PWBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- duration or intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- provider unfamiliar w%2F BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inappropriate- wrong time in recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- cultural competence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacceptable- self-determination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of coverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaffordable- lack of personal funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unavailable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_was_information_sent__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal info only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Initial_Communication_Method__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance__c</picklist>
+        <values>
+            <fullName>Medicaid%2FMCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRICARE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uninsured</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lives_where__c</picklist>
+        <values>
+            <fullName>Apt%2FCondo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assisted Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skilled Nursing Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitional Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lives_with__c</picklist>
+        <values>
+            <fullName>Alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caregiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child-Adult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family-Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanism_of_Injury__c</picklist>
+        <values>
+            <fullName>AVM%2F Aneurysm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All-Terrain Vehicle %28ATV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anoxia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bicycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blow to Head</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrocution%2F Electric Shock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gunshot Wound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical%2F Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Vehicle Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorcycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedestrian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaken Baby Syndrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports%2F Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mental_Health__c</picklist>
+        <values>
+            <fullName>Anxiety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Depression</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paranoia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self-Harm%2FSuicidal Ideation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Physical_Health__c</picklist>
+        <values>
+            <fullName>Balance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disorders of Consciousness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fainting%2FDizziness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fatigue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headaches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limb weakness or paralysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seizures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swallowing Difficulties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provided_With__c</picklist>
+        <values>
+            <fullName>Advocacy 1%3A1 Training %28BIRN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area Agency on Aging*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI Articles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beacon House*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brain Injury Services Inc*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brain Injury Services of Southwest VA*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridge Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Brain Injury Services*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crossroads to Brain Injury Recovery*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DARS- CRCMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DARS- Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DARS- Voc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid Waiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Limits Eastern Shore*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other BIA Affiliate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professionals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreational Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehab Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSI%2F SSDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veteran Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Supportive Housing*</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_s_for_Contact__c</picklist>
+        <values>
+            <fullName>Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caregiver Coping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cognition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concussion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disorders of Consciousness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General BI Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Term Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PWBI Coping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehabilitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Advocacy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social__c</picklist>
+        <values>
+            <fullName>Family Relations Difficulty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isolation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Discussed</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Substance_Use__c</picklist>
+        <values>
+            <fullName>Alcohol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opioid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unspecified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Brain_Injury__c</picklist>
+        <values>
+            <fullName>Non-Traumatic Brain Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traumatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Caller__c</picklist>
+        <values>
+            <fullName>Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Person With Brain Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Service__c</picklist>
+        <values>
+            <fullName>Case Discussion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unmet_Needs_Discussed__c</picklist>
+        <values>
+            <fullName>Case Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Insurance-None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Insurance-Under insured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing-Homeless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub-Acute Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

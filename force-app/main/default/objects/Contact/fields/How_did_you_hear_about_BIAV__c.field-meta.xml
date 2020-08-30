@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_BIAV__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to further describe the referred by option chosen below. ( for example, a specific program name, a professional name, for CSB&apos;s either substance abuse, mental health or developmental disability)</inlineHelpText>
+    <label>How did you hear about BIAV</label>
+    <length>250</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

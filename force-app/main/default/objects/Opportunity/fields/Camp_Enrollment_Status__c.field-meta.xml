@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Camp_Enrollment_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Camp Enrollment Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Week 1</fullName>
+                <default>false</default>
+                <label>Week 1</label>
+            </value>
+            <value>
+                <fullName>Week 1 &amp; Mini</fullName>
+                <default>false</default>
+                <label>Week 1 &amp; Mini</label>
+            </value>
+            <value>
+                <fullName>Week 1 &amp; Mini &amp; Week 2</fullName>
+                <default>false</default>
+                <label>Week 1 &amp; Mini &amp; Week 2</label>
+            </value>
+            <value>
+                <fullName>Week 1 &amp; Week 2</fullName>
+                <default>false</default>
+                <label>Week 1 &amp; Week 2</label>
+            </value>
+            <value>
+                <fullName>Week 2</fullName>
+                <default>false</default>
+                <label>Week 2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

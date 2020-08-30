@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_longer_in_Directory</fullName>
+    <columns>NAME</columns>
+    <columns>BIAV_CR_Organization__c</columns>
+    <columns>BIAV_CR_Title__c</columns>
+    <columns>BIAV_CR_Contact__c</columns>
+    <columns>BIAV_CR_Professionals_Name__c</columns>
+    <columns>BIAV_CR_Category__c</columns>
+    <columns>BIAV_CR_dir_categories__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>1000</value>
+    </filters>
+    <label>No longer in Directory</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_info_are_they_looking_for__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is only used to record info entered on the web based RRF (online Resource Request Form).  It is left blank for all other contacts</inlineHelpText>
+    <label>What info are they looking for</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

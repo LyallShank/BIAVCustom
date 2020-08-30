@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Story_Comments__c</fullName>
+    <description>Use this box to document when/how a personal story was used</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this box to document when/how a personal story was used</inlineHelpText>
+    <label>Story Comments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

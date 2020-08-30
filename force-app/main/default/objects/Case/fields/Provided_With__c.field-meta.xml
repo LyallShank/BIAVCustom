@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provided_With__c</fullName>
+    <externalId>false</externalId>
+    <label>Provided With</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advocacy 1:1 Training (BIRN)</fullName>
+                <default>false</default>
+                <label>Advocacy 1:1 Training (BIRN)</label>
+            </value>
+            <value>
+                <fullName>Area Agency on Aging*</fullName>
+                <default>false</default>
+                <label>Area Agency on Aging*</label>
+            </value>
+            <value>
+                <fullName>Attorney</fullName>
+                <default>false</default>
+                <label>Attorney</label>
+            </value>
+            <value>
+                <fullName>Beacon House*</fullName>
+                <default>false</default>
+                <label>Beacon House*</label>
+            </value>
+            <value>
+                <fullName>BI Articles</fullName>
+                <default>false</default>
+                <label>BI Articles</label>
+            </value>
+            <value>
+                <fullName>Brain Injury Connections of the Shenandoah Valley, Inc.</fullName>
+                <default>false</default>
+                <label>Brain Injury Connections of the Shenandoah Valley, Inc.</label>
+            </value>
+            <value>
+                <fullName>Brain Injury Services Inc*</fullName>
+                <default>false</default>
+                <label>Brain Injury Services Inc*</label>
+            </value>
+            <value>
+                <fullName>Brain Injury Services of Southwest VA*</fullName>
+                <default>false</default>
+                <label>Brain Injury Services of Southwest VA*</label>
+            </value>
+            <value>
+                <fullName>Bridge Line</fullName>
+                <default>false</default>
+                <label>Bridge Line</label>
+            </value>
+            <value>
+                <fullName>CIL</fullName>
+                <default>false</default>
+                <label>CIL</label>
+            </value>
+            <value>
+                <fullName>Community Brain Injury Services*</fullName>
+                <default>false</default>
+                <label>Community Brain Injury Services*</label>
+            </value>
+            <value>
+                <fullName>Crossroads to Brain Injury Recovery*</fullName>
+                <default>false</default>
+                <label>Crossroads to Brain Injury Recovery*(inactive effective 7/5/18)</label>
+            </value>
+            <value>
+                <fullName>DARS- CRCMS</fullName>
+                <default>false</default>
+                <label>DARS- CRCMS</label>
+            </value>
+            <value>
+                <fullName>DARS- Other</fullName>
+                <default>false</default>
+                <label>DARS- Other</label>
+            </value>
+            <value>
+                <fullName>DARS- Voc</fullName>
+                <default>false</default>
+                <label>DARS- Voc</label>
+            </value>
+            <value>
+                <fullName>DLC</fullName>
+                <default>false</default>
+                <label>DLC</label>
+            </value>
+            <value>
+                <fullName>DMAS</fullName>
+                <default>false</default>
+                <label>DMAS</label>
+            </value>
+            <value>
+                <fullName>DSS</fullName>
+                <default>false</default>
+                <label>DSS</label>
+            </value>
+            <value>
+                <fullName>Educational Resources</fullName>
+                <default>false</default>
+                <label>Educational Resources</label>
+            </value>
+            <value>
+                <fullName>Housing</fullName>
+                <default>false</default>
+                <label>Housing</label>
+            </value>
+            <value>
+                <fullName>Legislator</fullName>
+                <default>false</default>
+                <label>Legislator</label>
+            </value>
+            <value>
+                <fullName>Medicaid Waiver</fullName>
+                <default>false</default>
+                <label>Medicaid Waiver</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>true</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>No Limits Eastern Shore*</fullName>
+                <default>false</default>
+                <label>No Limits Eastern Shore*</label>
+            </value>
+            <value>
+                <fullName>Other BIA Affiliate</fullName>
+                <default>false</default>
+                <label>Other BIA Affiliate</label>
+            </value>
+            <value>
+                <fullName>Other Services</fullName>
+                <default>false</default>
+                <label>Other Services</label>
+            </value>
+            <value>
+                <fullName>Professionals</fullName>
+                <default>false</default>
+                <label>Professionals</label>
+            </value>
+            <value>
+                <fullName>Recreational Services</fullName>
+                <default>false</default>
+                <label>Recreational Services</label>
+            </value>
+            <value>
+                <fullName>Rehab Program</fullName>
+                <default>false</default>
+                <label>Rehab Program</label>
+            </value>
+            <value>
+                <fullName>Resource Education</fullName>
+                <default>false</default>
+                <label>Resource Education</label>
+            </value>
+            <value>
+                <fullName>SSI/ SSDI</fullName>
+                <default>false</default>
+                <label>SSI/ SSDI</label>
+            </value>
+            <value>
+                <fullName>Support Group</fullName>
+                <default>false</default>
+                <label>Support Group</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Veteran Services</fullName>
+                <default>false</default>
+                <label>Veteran Services</label>
+            </value>
+            <value>
+                <fullName>Virginia Supportive Housing*</fullName>
+                <default>false</default>
+                <label>Virginia Supportive Housing*</label>
+            </value>
+            <value>
+                <fullName>Supportive Counseling-expired do not use</fullName>
+                <default>false</default>
+                <label>Supportive Counseling-expired do not use</label>
+            </value>
+            <value>
+                <fullName>Case Discussion-expired do not use</fullName>
+                <default>false</default>
+                <label>Case Discussion-expired do not use</label>
+            </value>
+            <value>
+                <fullName>CSB</fullName>
+                <default>false</default>
+                <label>CSB</label>
+            </value>
+            <value>
+                <fullName>Other (describe in &quot;other&quot; text box)</fullName>
+                <default>false</default>
+                <label>Other (describe in &quot;other&quot; text box)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>
