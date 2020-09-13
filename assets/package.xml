@@ -7,15 +7,36 @@
     <types>
         <members>Account</members>
         <members>Activity</members>
+        <members>Event</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
         <members>Contact</members>
-        <members>Event</members>
         <members>Opportunity</members>
         <members>Lead</members>
         <members>Task</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Lead.testShareRule</members> 
+         <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>*</members> 
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
+        <members>Account.*</members>
+        <name>SharingTerritoryRule</name>
     </types>
     <version>49.0</version>
 </Package>

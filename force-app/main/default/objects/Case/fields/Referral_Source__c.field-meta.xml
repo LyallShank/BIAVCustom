@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Source__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please enter the referral source (if any) that is associated with this specific case.</inlineHelpText>
+    <label>Referral Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acute Hospital</fullName>
+                <default>false</default>
+                <label>Acute Hospital</label>
+            </value>
+            <value>
+                <fullName>BIAV Brochure</fullName>
+                <default>false</default>
+                <label>BIAV Brochure</label>
+            </value>
+            <value>
+                <fullName>BIAV Presentation</fullName>
+                <default>false</default>
+                <label>BIAV Presentation</label>
+            </value>
+            <value>
+                <fullName>Brain Injury Association</fullName>
+                <default>false</default>
+                <label>Brain Injury Association</label>
+            </value>
+            <value>
+                <fullName>CBS/SA</fullName>
+                <default>false</default>
+                <label>CBS/SA</label>
+            </value>
+            <value>
+                <fullName>CIL</fullName>
+                <default>false</default>
+                <label>CIL</label>
+            </value>
+            <value>
+                <fullName>CSB</fullName>
+                <default>false</default>
+                <label>CSB</label>
+            </value>
+            <value>
+                <fullName>CSB/MH</fullName>
+                <default>false</default>
+                <label>CSB/MH</label>
+            </value>
+            <value>
+                <fullName>DARS</fullName>
+                <default>false</default>
+                <label>DARS</label>
+            </value>
+            <value>
+                <fullName>Detention Facility</fullName>
+                <default>false</default>
+                <label>Detention Facility</label>
+            </value>
+            <value>
+                <fullName>dLCV</fullName>
+                <default>false</default>
+                <label>dLCV</label>
+            </value>
+            <value>
+                <fullName>DMAS</fullName>
+                <default>false</default>
+                <label>DMAS</label>
+            </value>
+            <value>
+                <fullName>Domestic Violence</fullName>
+                <default>false</default>
+                <label>Domestic Violence</label>
+            </value>
+            <value>
+                <fullName>DSS</fullName>
+                <default>false</default>
+                <label>DSS</label>
+            </value>
+            <value>
+                <fullName>Family</fullName>
+                <default>false</default>
+                <label>Family</label>
+            </value>
+            <value>
+                <fullName>Friend</fullName>
+                <default>false</default>
+                <label>Friend</label>
+            </value>
+            <value>
+                <fullName>Guardian</fullName>
+                <default>false</default>
+                <label>Guardian</label>
+            </value>
+            <value>
+                <fullName>Home Health</fullName>
+                <default>false</default>
+                <label>Home Health</label>
+            </value>
+            <value>
+                <fullName>Human Service Directory</fullName>
+                <default>false</default>
+                <label>Human Service Directory</label>
+            </value>
+            <value>
+                <fullName>Inpatient Rehab</fullName>
+                <default>false</default>
+                <label>Inpatient Rehab</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Long Term Facility</fullName>
+                <default>false</default>
+                <label>Long Term Facility</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Other BIA</fullName>
+                <default>false</default>
+                <label>Other BIA</label>
+            </value>
+            <value>
+                <fullName>Outpatient Rehab</fullName>
+                <default>false</default>
+                <label>Outpatient Rehab</label>
+            </value>
+            <value>
+                <fullName>Private Insurance</fullName>
+                <default>false</default>
+                <label>Private Insurance</label>
+            </value>
+            <value>
+                <fullName>Private Practitioner</fullName>
+                <default>false</default>
+                <label>Private Practitioner</label>
+            </value>
+            <value>
+                <fullName>Probation Officer</fullName>
+                <default>false</default>
+                <label>Probation Officer</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Registry</fullName>
+                <default>false</default>
+                <label>Registry</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Self</fullName>
+                <default>false</default>
+                <label>Self</label>
+            </value>
+            <value>
+                <fullName>Shelter</fullName>
+                <default>false</default>
+                <label>Shelter</label>
+            </value>
+            <value>
+                <fullName>Sheltering Arms Institute (SAI)</fullName>
+                <default>false</default>
+                <label>Sheltering Arms Institute (SAI)</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>State Program</fullName>
+                <default>false</default>
+                <label>State Program</label>
+            </value>
+            <value>
+                <fullName>Support Group</fullName>
+                <default>false</default>
+                <label>Support Group</label>
+            </value>
+            <value>
+                <fullName>Veterans Services</fullName>
+                <default>false</default>
+                <label>Veterans Services</label>
+            </value>
+            <value>
+                <fullName>Worker&apos;s Compensation</fullName>
+                <default>false</default>
+                <label>Worker&apos;s Compensation</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

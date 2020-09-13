@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>BIAV Formstack Cases</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>BIAV_Formstack_for_Case</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>In Progress</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Initial_Communication_Method__c</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>
