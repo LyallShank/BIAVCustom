@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Authored__c</fullName>
+    <description>Date the work was authored or released or closest approximation</description>
+    <externalId>false</externalId>
+    <label>Date Authored</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

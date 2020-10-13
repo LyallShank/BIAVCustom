@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Index_Card__c</fullName>
+    <externalId>false</externalId>
+    <label>Index Card</label>
+    <referenceTo>Index_Card__c</referenceTo>
+    <relationshipLabel>Distributions</relationshipLabel>
+    <relationshipName>Distributions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

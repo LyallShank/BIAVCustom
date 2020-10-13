@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Contact_Date__c</fullName>
-    <description>Use this field to enter the initial date of contact with the individual, regardless of whether you connected with the individual or not</description>
     <externalId>false</externalId>
-    <inlineHelpText>Use this field to enter the initial date of contact with the individual, regardless of whether you connected with the individual or not.</inlineHelpText>
     <label>Contact Date</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

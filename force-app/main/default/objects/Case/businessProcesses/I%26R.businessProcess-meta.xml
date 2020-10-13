@@ -10,8 +10,4 @@
         <fullName>In Progress</fullName>
         <default>true</default>
     </values>
-    <values>
-        <fullName>Not Reached</fullName>
-        <default>false</default>
-    </values>
 </BusinessProcess>
