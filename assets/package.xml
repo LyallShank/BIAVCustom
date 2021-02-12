@@ -50,5 +50,9 @@
         <members>*</members>
         <name>Flow</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
     <version>50.0</version>
 </Package>

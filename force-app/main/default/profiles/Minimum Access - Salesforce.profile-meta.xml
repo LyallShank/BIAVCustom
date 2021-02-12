@@ -2892,10 +2892,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ContentAsset-Asset File Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Distribution__c-Distribution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Index_Card__c-Index Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Taxonomy_Category__c-Taxonomy Category Layout</layout>
