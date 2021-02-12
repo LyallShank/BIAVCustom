@@ -3311,6 +3311,45 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Donation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Fundraising_Registration_and_Tickets</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Hard_Soft_Credit</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.In_Kind_Gift</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.MajorGift</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Matching_Gift</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Recurring_Donation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Registration</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Sponsorship</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-npsp__Grant Layout</layout>
         <recordType>Opportunity.Grant</recordType>
     </layoutAssignments>
@@ -3383,6 +3422,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>npe01__OppPayment__c-npe01__Payment Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>

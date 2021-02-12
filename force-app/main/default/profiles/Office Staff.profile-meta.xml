@@ -3350,6 +3350,21 @@
         <recordType>Opportunity.Sponsorship</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Donation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.MajorGift</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-npsp__Donation Layout</layout>
+        <recordType>Opportunity.Recurring_Donation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-npsp__Grant Layout</layout>
         <recordType>Opportunity.Grant</recordType>
     </layoutAssignments>
@@ -3422,6 +3437,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>npe01__OppPayment__c-npe01__Payment Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
