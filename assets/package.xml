@@ -15,6 +15,8 @@
         <members>Opportunity</members>
         <members>Lead</members>
         <members>Task</members>
+        <members>npsp__Address__c</members>
+        <members>npe01__OppPayment__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -52,6 +54,7 @@
     </types>
     <types>
         <members>*</members>
+        <members>npe01__OppPayment__c-npe01__OppPayment__c-npsp__Payment Layout</members>
         <name>Layout</name>
     </types>
     <version>50.0</version>
